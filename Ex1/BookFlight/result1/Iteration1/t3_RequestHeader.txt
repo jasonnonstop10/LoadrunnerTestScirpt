@@ -1,0 +1,9 @@
+GET /fwlink/?LinkID=401135 HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+UA-CPU: AMD64
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+Accept-Language: en-US,en;q=0.7,th;q=0.3
+Connection: Keep-Alive
+Host: go.microsoft.com
+
