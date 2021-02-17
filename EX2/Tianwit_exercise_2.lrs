@@ -5,7 +5,7 @@ Version=12.50.0.0
 }
 
 {ScenarioGeneralConfig
-ScenarioType=2
+ScenarioType=1
 Is_mix=1
 Is_runner_file=0
 Runner_file=
@@ -14,7 +14,7 @@ GlobalDir=
 }
 
 {ScenarioPrivateConfig
-Path=C:\Users\Lenovo\Documents\GitHub\LoadrunnerTestScirpt\Ex1\Tianwit_exercise_1.lrs
+Path=C:\Users\Lenovo\Documents\GitHub\LoadrunnerTestScirpt\EX2\Tianwit_exercise_2.lrs
 Author=Lenovo
 Subject=Tianwit_exercise_1
 Description=
@@ -22,7 +22,7 @@ Hosts=1
 Scripts=2
 Groups=2
 Vusers=30
-Tranzactions=3
+Tranzactions=5
 Rendezvous=0
 Result_file=C:\Users\Lenovo\AppData\Local\Temp\res\res.lrr
 ResCleanName=res
@@ -48,7 +48,7 @@ TestDirDatabase=
 TestDirCycle=default
 TestDirCycleInstance=1
 TestResultsFlag=0
-ScenarioSchedulerMode=1
+ScenarioSchedulerMode=0
 ScenarioSchedulerName=Default Schedule
 SuspendScenarioStart=0
 ScenarioStartDelay=0
@@ -56,7 +56,7 @@ ScenarioStartAtTime=15357
 ScenarioStartAtTimeYear=2021
 ScenarioStartAtTimeMonth=2
 ScenarioStartAtTimeDay=13
-GIndexSortType=2
+GIndexSortType=1
 GIndexAutoSort=0
 SoftKillMode=0
 }
@@ -121,7 +121,7 @@ VuQuitTO=120
 47:DefaultSchedulerRunMode=1
 48:VTSL=100
 49:HpsAveragePeriod=60
-50:ScenarioType=2
+50:ScenarioType=1
 51:ViewDebugOutput=0
 52:MonitorsSamplingRateValue=3
 53:MonitorsSendErrors=1
@@ -190,7 +190,7 @@ SubType=Multi+QTWeb
 ScriptType=9
 Path=C:\Users\Lenovo\Documents\GitHub\LoadrunnerTestScirpt\Ex1\BookFlight\BookFlight.usr
 EmulatedLocation=None
-Config=[CommandArguments]\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[RtsConfigfuration]\r\nAUTMode="1"\r\n[WEB]\r\nIgnoreContentCachingTypes="1"\r\nCacheAlwaysCheckForNewerPages="0"\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1920"\r\nUseBrowserAgent=0\r\nGraphBytesPerSecond="1"\r\nNavigatorBrowserLanguage="en-US"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nUTF8InputOutput="0"\r\nNavigatorUserLanguage="th-TH"\r\nAutoTransFileLine="1"\r\nRecorderWinCodePage="1252"\r\nUseCustomAgent=1\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nLogFileWrite="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources="0"\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nResetContext="True"\r\nStartRecordingGMT="2021/02/01 08:13:31"\r\nGraphPagesPerSecond="0"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="1"\r\nUserHomePage="https://go.microsoft.com/fwlink/p/?LinkId=619797&pc=UE01&ocid=UE01DHP"\r\nScreenWidth="1920"\r\nScreenAvailHeight="1030"\r\nBrowserAcceptLanguage="en-US,en;q=0.7,th;q=0.3"\r\nProxyHTTPSHost=\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nWinInetReplay="0"\r\nProxyNoLocal="0"\r\nSimulatePrefetchPrerender="0"\r\nProxyHTTPHost=""\r\nNavigatorSystemLanguage="en-US"\r\nSimulateCache="1"\r\nDisableAED=0\r\nEnableChecks="0"\r\nProxyHTTPPort="443"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nProxyBypass=""\r\nUseDataFormatExtensions="FALSE"\r\nKeepAlive="Yes"\r\nProxyUserName=""\r\nCacheHtmlPages="1"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nSnapshotOnErrorActive=0\r\nProxyHTTPSPort=443\r\nMaxConnections="0"\r\nScreenHeight="1080"\r\nFailNonCriticalItem="0"\r\nClearCacheForSimulateNewUser="1"\r\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; rv:11.0) like Gecko\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions=1\r\nContinueOnError=0\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\nUseThreads=1\r\niter_ends_val=fixed\r\nDefaultRunLogic=uspJbU.791\r\nAutomaticTransactionsPerFunc=0\r\niter_begins_val=fixed\r\nFailTransOnErrorMsg=0\r\n[Log]\r\nMsgClassParameters=0\r\nMsgClassData=0\r\nLogOptions=LogBrief\r\nMsgClassFull=0\r\nPrintTimeStamp=0\r\nAutoLog=1\r\n[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=1\r\n[ThinkTime]\r\nOptions=MULTIPLY\r\nFactor=1.500000\r\nThinkTimeRandomLow=50\r\nThinkTimeRandomHigh=150\r\nLimit=1\r\nLimitFlag=0\r\n
+Config=[CommandArguments]\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[RtsConfigfuration]\r\nAUTMode="1"\r\n[WEB]\r\nIgnoreContentCachingTypes="1"\r\nCacheAlwaysCheckForNewerPages="0"\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1920"\r\nUseBrowserAgent=0\r\nGraphBytesPerSecond="1"\r\nNavigatorBrowserLanguage="en-US"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nUTF8InputOutput="0"\r\nNavigatorUserLanguage="th-TH"\r\nAutoTransFileLine="1"\r\nRecorderWinCodePage="1252"\r\nUseCustomAgent=1\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nLogFileWrite="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources="0"\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nResetContext="True"\r\nStartRecordingGMT="2021/02/01 08:13:31"\r\nGraphPagesPerSecond="0"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="1"\r\nUserHomePage="https://go.microsoft.com/fwlink/p/?LinkId=619797&pc=UE01&ocid=UE01DHP"\r\nScreenWidth="1920"\r\nScreenAvailHeight="1030"\r\nBrowserAcceptLanguage="en-US,en;q=0.7,th;q=0.3"\r\nProxyHTTPSHost=\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nWinInetReplay="0"\r\nProxyNoLocal="0"\r\nSimulatePrefetchPrerender="0"\r\nProxyHTTPHost=""\r\nNavigatorSystemLanguage="en-US"\r\nSimulateCache="1"\r\nDisableAED=0\r\nEnableChecks="0"\r\nProxyHTTPPort="443"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nProxyBypass=""\r\nUseDataFormatExtensions="FALSE"\r\nKeepAlive="Yes"\r\nProxyUserName=""\r\nCacheHtmlPages="1"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nSnapshotOnErrorActive=0\r\nProxyHTTPSPort=443\r\nMaxConnections="0"\r\nScreenHeight="1080"\r\nFailNonCriticalItem="0"\r\nClearCacheForSimulateNewUser="1"\r\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; rv:11.0) like Gecko\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions=1\r\nContinueOnError=0\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\nUseThreads=1\r\niter_ends_val=fixed\r\nDefaultRunLogic=uspHKz.407\r\nAutomaticTransactionsPerFunc=0\r\niter_begins_val=fixed\r\nFailTransOnErrorMsg=0\r\n[Log]\r\nMsgClassParameters=0\r\nMsgClassData=0\r\nLogOptions=LogBrief\r\nMsgClassFull=0\r\nPrintTimeStamp=0\r\nAutoLog=1\r\n[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=1\r\n[ThinkTime]\r\nOptions=MULTIPLY\r\nFactor=1.500000\r\nThinkTimeRandomLow=50\r\nThinkTimeRandomHigh=150\r\nLimit=1\r\nLimitFlag=0\r\n
 ConfigUsp=[RunLogicEndRoot:vuser_end]\r\nMercIniTreeSectionName="vuser_end"\r\nRunLogicObjectKind="Action"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nMercIniTreeFather="RunLogicEndRoot"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeSectionName="vuser_init"\r\nRunLogicObjectKind="Action"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nMercIniTreeFather="RunLogicInitRoot"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeSectionName="Action"\r\nRunLogicObjectKind="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nMercIniTreeFather="RunLogicRunRoot"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nRunLogicObjectKind="Action"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\n[Profile Actions]\r\nProfile Actions name=vuser_init,Action,vuser_end\r\nMercIniTreeSectionName="Profile Actions"\r\nMercIniTreeFather=""\r\n[RunLogicRunRoot]\r\nRunLogicPaceConstTime="60.000"\r\nRunLogicRandomPaceMax="90.000"\r\nRunLogicActionOrder="Action"\r\nRunLogicAfterPaceMax="90.000"\r\nMercIniTreeFather=""\r\nRunLogicPaceType="Asap"\r\nMercIniTreeSons="Action"\r\nRunLogicNumOfIterations="1"\r\nRunLogicAfterPaceMin="60.000"\r\nName="Run"\r\nRunLogicPaceConstAfterTime="60.000"\r\nRunLogicRunMode="Sequential"\r\nRunLogicObjectKind="Group"\r\nRunLogicActionType="VuserRun"\r\nRunLogicRandomPaceMin="60.000"\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\n[RunLogicEndRoot]\r\nRunLogicActionOrder="vuser_end"\r\nMercIniTreeFather=""\r\nMercIniTreeSons="vuser_end"\r\nRunLogicNumOfIterations="1"\r\nName="End"\r\nRunLogicRunMode="Sequential"\r\nRunLogicObjectKind="Group"\r\nRunLogicActionType="VuserEnd"\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\n[RunLogicErrorHandlerRoot]\r\nRunLogicActionOrder="vuser_errorhandler"\r\nMercIniTreeFather=""\r\nMercIniTreeSons="vuser_errorhandler"\r\nRunLogicNumOfIterations="1"\r\nName="ErrorHandler"\r\nRunLogicRunMode="Sequential"\r\nRunLogicObjectKind="Group"\r\nRunLogicActionType="VuserErrorHandler"\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\n[RunLogicInitRoot]\r\nRunLogicActionOrder="vuser_init"\r\nMercIniTreeFather=""\r\nMercIniTreeSons="vuser_init"\r\nRunLogicNumOfIterations="1"\r\nName="Init"\r\nRunLogicRunMode="Sequential"\r\nRunLogicObjectKind="Group"\r\nRunLogicActionType="VuserInit"\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\n
 Param=
 TDPath=
@@ -209,7 +209,7 @@ SubType=Multi+QTWeb
 ScriptType=9
 Path=C:\Users\Lenovo\Documents\GitHub\LoadrunnerTestScirpt\Ex1\BookFlight\BookFlight.usr
 EmulatedLocation=None
-Config=[CommandArguments]\r\n[RtsConfigfuration]\r\nAUTMode="1"\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[WEB]\r\nIgnoreContentCachingTypes="1"\r\nCacheAlwaysCheckForNewerPages="0"\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1920"\r\nUseBrowserAgent=0\r\nGraphBytesPerSecond="1"\r\nNavigatorBrowserLanguage="en-US"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nUTF8InputOutput="0"\r\nNavigatorUserLanguage="th-TH"\r\nAutoTransFileLine="1"\r\nRecorderWinCodePage="1252"\r\nUseCustomAgent=1\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nLogFileWrite="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources="0"\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nResetContext="True"\r\nStartRecordingGMT="2021/02/01 08:13:31"\r\nGraphPagesPerSecond="0"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="1"\r\nUserHomePage="https://go.microsoft.com/fwlink/p/?LinkId=619797&pc=UE01&ocid=UE01DHP"\r\nScreenWidth="1920"\r\nScreenAvailHeight="1030"\r\nBrowserAcceptLanguage="en-US,en;q=0.7,th;q=0.3"\r\nProxyHTTPSHost=\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nWinInetReplay="0"\r\nProxyNoLocal="0"\r\nSimulatePrefetchPrerender="0"\r\nProxyHTTPHost=""\r\nNavigatorSystemLanguage="en-US"\r\nSimulateCache="1"\r\nDisableAED=0\r\nEnableChecks="0"\r\nProxyHTTPPort="443"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nProxyBypass=""\r\nUseDataFormatExtensions="FALSE"\r\nKeepAlive="Yes"\r\nProxyUserName=""\r\nCacheHtmlPages="1"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nSnapshotOnErrorActive=0\r\nProxyHTTPSPort=443\r\nMaxConnections="0"\r\nScreenHeight="1080"\r\nFailNonCriticalItem="0"\r\nClearCacheForSimulateNewUser="1"\r\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; rv:11.0) like Gecko\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions=1\r\nContinueOnError=0\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\nUseThreads=1\r\niter_ends_val=fixed\r\nDefaultRunLogic=uspZYb.793\r\nAutomaticTransactionsPerFunc=0\r\niter_begins_val=fixed\r\nFailTransOnErrorMsg=0\r\n[Log]\r\nMsgClassParameters=0\r\nMsgClassData=0\r\nLogOptions=LogBrief\r\nMsgClassFull=0\r\nPrintTimeStamp=0\r\nAutoLog=1\r\n[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=1\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor=1.000000\r\nThinkTimeRandomLow=50\r\nThinkTimeRandomHigh=150\r\nLimit=1\r\nLimitFlag=0\r\n
+Config=[CommandArguments]\r\n[RtsConfigfuration]\r\nAUTMode="1"\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[WEB]\r\nIgnoreContentCachingTypes="1"\r\nCacheAlwaysCheckForNewerPages="0"\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1920"\r\nUseBrowserAgent=0\r\nGraphBytesPerSecond="1"\r\nNavigatorBrowserLanguage="en-US"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nUTF8InputOutput="0"\r\nNavigatorUserLanguage="th-TH"\r\nAutoTransFileLine="1"\r\nRecorderWinCodePage="1252"\r\nUseCustomAgent=1\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nLogFileWrite="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources="0"\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nResetContext="True"\r\nStartRecordingGMT="2021/02/01 08:13:31"\r\nGraphPagesPerSecond="0"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="1"\r\nUserHomePage="https://go.microsoft.com/fwlink/p/?LinkId=619797&pc=UE01&ocid=UE01DHP"\r\nScreenWidth="1920"\r\nScreenAvailHeight="1030"\r\nBrowserAcceptLanguage="en-US,en;q=0.7,th;q=0.3"\r\nProxyHTTPSHost=\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nWinInetReplay="0"\r\nProxyNoLocal="0"\r\nSimulatePrefetchPrerender="0"\r\nProxyHTTPHost=""\r\nNavigatorSystemLanguage="en-US"\r\nSimulateCache="1"\r\nDisableAED=0\r\nEnableChecks="0"\r\nProxyHTTPPort="443"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nProxyBypass=""\r\nUseDataFormatExtensions="FALSE"\r\nKeepAlive="Yes"\r\nProxyUserName=""\r\nCacheHtmlPages="1"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nSnapshotOnErrorActive=0\r\nProxyHTTPSPort=443\r\nMaxConnections="0"\r\nScreenHeight="1080"\r\nFailNonCriticalItem="0"\r\nClearCacheForSimulateNewUser="1"\r\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; rv:11.0) like Gecko\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions=1\r\nContinueOnError=0\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\nUseThreads=1\r\niter_ends_val=fixed\r\nDefaultRunLogic=usp0AH.409\r\nAutomaticTransactionsPerFunc=0\r\niter_begins_val=fixed\r\nFailTransOnErrorMsg=0\r\n[Log]\r\nMsgClassParameters=0\r\nMsgClassData=0\r\nLogOptions=LogBrief\r\nMsgClassFull=0\r\nPrintTimeStamp=0\r\nAutoLog=1\r\n[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=1\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor=1.000000\r\nThinkTimeRandomLow=50\r\nThinkTimeRandomHigh=150\r\nLimit=1\r\nLimitFlag=0\r\n
 ConfigUsp=[RunLogicEndRoot:vuser_end]\r\nMercIniTreeSectionName="vuser_end"\r\nRunLogicObjectKind="Action"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nMercIniTreeFather="RunLogicEndRoot"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeSectionName="vuser_init"\r\nRunLogicObjectKind="Action"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nMercIniTreeFather="RunLogicInitRoot"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeSectionName="Action"\r\nRunLogicObjectKind="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nMercIniTreeFather="RunLogicRunRoot"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nRunLogicObjectKind="Action"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\n[Profile Actions]\r\nProfile Actions name=vuser_init,Action,vuser_end\r\nMercIniTreeSectionName="Profile Actions"\r\nMercIniTreeFather=""\r\n[RunLogicRunRoot]\r\nRunLogicPaceConstTime="60.000"\r\nRunLogicRandomPaceMax="90.000"\r\nRunLogicActionOrder="Action"\r\nRunLogicAfterPaceMax="90.000"\r\nMercIniTreeFather=""\r\nRunLogicPaceType="Asap"\r\nMercIniTreeSons="Action"\r\nRunLogicNumOfIterations="1"\r\nRunLogicAfterPaceMin="60.000"\r\nName="Run"\r\nRunLogicPaceConstAfterTime="60.000"\r\nRunLogicRunMode="Sequential"\r\nRunLogicObjectKind="Group"\r\nRunLogicActionType="VuserRun"\r\nRunLogicRandomPaceMin="60.000"\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\n[RunLogicEndRoot]\r\nRunLogicActionOrder="vuser_end"\r\nMercIniTreeFather=""\r\nMercIniTreeSons="vuser_end"\r\nRunLogicNumOfIterations="1"\r\nName="End"\r\nRunLogicRunMode="Sequential"\r\nRunLogicObjectKind="Group"\r\nRunLogicActionType="VuserEnd"\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\n[RunLogicErrorHandlerRoot]\r\nRunLogicActionOrder="vuser_errorhandler"\r\nMercIniTreeFather=""\r\nMercIniTreeSons="vuser_errorhandler"\r\nRunLogicNumOfIterations="1"\r\nName="ErrorHandler"\r\nRunLogicRunMode="Sequential"\r\nRunLogicObjectKind="Group"\r\nRunLogicActionType="VuserErrorHandler"\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\n[RunLogicInitRoot]\r\nRunLogicActionOrder="vuser_init"\r\nMercIniTreeFather=""\r\nMercIniTreeSons="vuser_init"\r\nRunLogicNumOfIterations="1"\r\nName="Init"\r\nRunLogicRunMode="Sequential"\r\nRunLogicObjectKind="Group"\r\nRunLogicActionType="VuserInit"\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\n
 Param=
 TDPath=
@@ -222,18 +222,226 @@ Trans=01_login
 }
 }
 
+{GroupChief
+
+{new_user
+
+{30
+5=new_user
+9=localhost
+SEED_NUM=0
+}
+
+{7
+5=new_user
+9=localhost
+SEED_NUM=0
+}
+
+{6
+5=new_user
+9=localhost
+SEED_NUM=0
+}
+
+{29
+5=new_user
+9=localhost
+SEED_NUM=0
+}
+
+{18
+5=new_user
+9=localhost
+SEED_NUM=0
+}
+
+{5
+5=new_user
+9=localhost
+SEED_NUM=0
+}
+
+{ChiefSettings
+5=new_user
+9=localhost
+GroupParam=
+Enabled=1
+EmulatedLocation=None
+}
+}
+
+{Advance_user
+
+{26
+5=advance_user
+9=localhost
+SEED_NUM=0
+}
+
+{1
+5=advance_user
+9=localhost
+SEED_NUM=0
+}
+
+{25
+5=advance_user
+9=localhost
+SEED_NUM=0
+}
+
+{24
+5=advance_user
+9=localhost
+SEED_NUM=0
+}
+
+{12
+5=advance_user
+9=localhost
+SEED_NUM=0
+}
+
+{23
+5=advance_user
+9=localhost
+SEED_NUM=0
+}
+
+{13
+5=advance_user
+9=localhost
+SEED_NUM=0
+}
+
+{22
+5=advance_user
+9=localhost
+SEED_NUM=0
+}
+
+{10
+5=advance_user
+9=localhost
+SEED_NUM=0
+}
+
+{21
+5=advance_user
+9=localhost
+SEED_NUM=0
+}
+
+{11
+5=advance_user
+9=localhost
+SEED_NUM=0
+}
+
+{20
+5=advance_user
+9=localhost
+SEED_NUM=0
+}
+
+{16
+5=advance_user
+9=localhost
+SEED_NUM=0
+}
+
+{17
+5=advance_user
+9=localhost
+SEED_NUM=0
+}
+
+{30
+5=advance_user
+9=localhost
+SEED_NUM=0
+}
+
+{14
+5=advance_user
+9=localhost
+SEED_NUM=0
+}
+
+{15
+5=advance_user
+9=localhost
+SEED_NUM=0
+}
+
+{9
+5=advance_user
+9=localhost
+SEED_NUM=0
+}
+
+{8
+5=advance_user
+9=localhost
+SEED_NUM=0
+}
+
+{7
+5=advance_user
+9=localhost
+SEED_NUM=0
+}
+
+{6
+5=advance_user
+9=localhost
+SEED_NUM=0
+}
+
+{29
+5=advance_user
+9=localhost
+SEED_NUM=0
+}
+
+{18
+5=advance_user
+9=localhost
+SEED_NUM=0
+}
+
+{5
+5=advance_user
+9=localhost
+SEED_NUM=0
+}
+
+{ChiefSettings
+5=advance_user
+9=localhost
+GroupParam=
+Enabled=1
+EmulatedLocation=None
+}
+}
+}
+
+{RendezChief
+}
+
 {OnlineMonitor
 [GeneralData]
 DisplayerViewType=Run
-MultiPanels=NumGraphs=4,ActiveForm=-1,BaseIndex=0,CountMulties=7,Ratio0=1,Ratio1=0.491803278688525,Ratio2=0.498569384835479,Ratio3=0.49928469241774,Ratio4=0.495901639344262,Ratio5=0.498569384835479,Ratio6=0.49928469241774
+MultiPanels=NumGraphs=1,ActiveForm=-1,BaseIndex=0,CountMulties=1,Ratio0=1
 TreeViewVisible=1
 TreeViewWidth=220
-LegenedHeight=224
+LegenedHeight=128
 GraphTop=0
 GraphLeft=225
 TreeViewTop=0
 TreeViewHeight=220
-LegenedTop=470
+LegenedTop=588
 LegenedWidth=1911
 HostNameIdMap=
 LegenedLeft=0
@@ -315,7 +523,8 @@ BreakdownApplicable=0
 AnySubPathAtStart=-1
 OpenChildGraph=0
 KeepLegendSort=0
-LegendSortDirection=1
+LegendSortDirection=-1
+LegendSortByColumn=Transaction
 LegendUserMovedColumn=0
 XAxisLabelsStyle=RelativeTime
 Is_On_Panel=1
@@ -425,15 +634,19 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=4
+MeasurementCount=6
 Measurement_0=|||1|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
 MeasurementFullPath_0=advance_user:Action:29
 Measurement_1=|||4|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
 MeasurementFullPath_1=new_user:Action:29
-Measurement_2=|||1|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
-MeasurementFullPath_2=advance_user:Action:69
-Measurement_3=|||27|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
-MeasurementFullPath_3=new_user:Action:89
+Measurement_2=|||27|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
+MeasurementFullPath_2=advance_user:Action:89
+Measurement_3=|||1|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
+MeasurementFullPath_3=advance_user:Action:69
+Measurement_4=|||21|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
+MeasurementFullPath_4=localhost
+Measurement_5=|||27|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
+MeasurementFullPath_5=new_user:Action:89
 Description=Displays details about the number of errors that accrue during each second of the scenario or session step run.
 [4]
 MeasurementsDelimiter=|||
@@ -472,15 +685,17 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=4
+MeasurementCount=5
 Measurement_0=|||10|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
 MeasurementFullPath_0=new_user:Action:29
 Measurement_1=|||28|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
 MeasurementFullPath_1=new_user:Action:89
 Measurement_2=|||2|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
 MeasurementFullPath_2=advance_user:Action:69
-Measurement_3=|||2|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
-MeasurementFullPath_3=advance_user:Action:29
+Measurement_3=|||28|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
+MeasurementFullPath_3=advance_user:Action:89
+Measurement_4=|||2|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
+MeasurementFullPath_4=advance_user:Action:29
 Description=Displays details about the number of Vusers that generate errors during scenario or session step execution.
 [5]
 MeasurementsDelimiter=|||
@@ -1863,7 +2078,31 @@ Min__Y_Scale=0
 DefaultMsrAutoScale=1
 Granularities=1
 Is_Resource_Graph=1
-MeasurementCount=0
+MeasurementCount=12
+Measurement_0=|||0|||0|||1E-6|||localhost|||1|||-1|||es_rm_svr_res_nt
+MeasurementFullPath_0="Private Bytes (Process httpd#1)"
+Measurement_1=|||3|||0|||0.01|||localhost|||1|||-1|||es_rm_svr_res_nt
+MeasurementFullPath_1="IO Write Bytes/sec (Process httpd#1)"
+Measurement_2=|||6|||0|||0.001|||localhost|||1|||-1|||es_rm_svr_res_nt
+MeasurementFullPath_2="IO Read Bytes/sec (Process httpd#1)"
+Measurement_3=|||11|||0|||0.01|||localhost|||1|||-1|||es_rm_svr_res_nt
+MeasurementFullPath_3="% Processor Time (Process _Total)"
+Measurement_4=|||7|||0|||1|||localhost|||1|||-1|||es_rm_svr_res_nt
+MeasurementFullPath_4="IO Read Bytes/sec (Process httpd)"
+Measurement_5=|||10|||0|||1|||localhost|||1|||-1|||es_rm_svr_res_nt
+MeasurementFullPath_5="% Processor Time (Process httpd)"
+Measurement_6=|||4|||0|||1|||localhost|||1|||-1|||es_rm_svr_res_nt
+MeasurementFullPath_6="IO Write Bytes/sec (Process httpd)"
+Measurement_7=|||8|||0|||0.0001|||localhost|||1|||-1|||es_rm_svr_res_nt
+MeasurementFullPath_7="IO Read Bytes/sec (Process _Total)"
+Measurement_8=|||2|||0|||1E-9|||localhost|||1|||-1|||es_rm_svr_res_nt
+MeasurementFullPath_8="Private Bytes (Process _Total)"
+Measurement_9=|||5|||0|||0.0001|||localhost|||1|||-1|||es_rm_svr_res_nt
+MeasurementFullPath_9="IO Write Bytes/sec (Process _Total)"
+Measurement_10=|||9|||0|||10|||localhost|||1|||-1|||es_rm_svr_res_nt
+MeasurementFullPath_10="% Processor Time (Process httpd#1)"
+Measurement_11=|||1|||0|||1E-5|||localhost|||1|||-1|||es_rm_svr_res_nt
+MeasurementFullPath_11="Private Bytes (Process httpd)"
 Description=Displays a summary of the System Resources usage for each Windows based host.
 [37]
 MeasurementsDelimiter=|||
@@ -4244,11 +4483,202 @@ SamplingRate=IntV1|3000
 {ResourceMonitoring
 ResourceMonitoringDomainVersion=IntV1|1
 EnabledMode=StringV1|True
-DualMonitorsMap=StringV1|<DualMonitor/>
+DualMonitorsMap=StringV1|<DualMonitor><Monitor name="es_rm_svr_res_nt" IsLRMonitorActive="1"/></DualMonitor>
 
 {ResourceMonitoringMachines
 ResourceMonitoringMachinesVersion=IntV1|1
-MachinesCount=IntV1|0
+MachinesCount=IntV1|1
+
+{ResourceMonitoredMachine
+ResourceMonitoringMachineVersion=IntV1|1
+MonitoredMachineName=StringV1|localhost
+MonMachinePlatform=IntV1|14
+
+{ItemList
+CMPIListVersion=IntV1|1
+ListCount=IntV1|12
+
+{MonItemPlus
+MonItemPlusVersion=IntV1|1
+MonitorId=IntV1|5705
+
+{MonItem
+CustomPerfItemV1=IntV1|1
+ObjId=StringV1|Process|Private Bytes|httpd#1
+Name=StringV1|Private Bytes (Process httpd#1)
+Data=StringV1|
+Description=StringV1|Private Bytes is the current size, in bytes, of memory that this process has allocated that cannot be shared with other processes.
+ObjectType=IntV1|0
+DisplayerName=StringV1|es_rm_svr_res_nt
+}
+}
+
+{MonItemPlus
+MonItemPlusVersion=IntV1|1
+MonitorId=IntV1|5705
+
+{MonItem
+CustomPerfItemV1=IntV1|1
+ObjId=StringV1|Process|Private Bytes|httpd
+Name=StringV1|Private Bytes (Process httpd)
+Data=StringV1|
+Description=StringV1|Private Bytes is the current size, in bytes, of memory that this process has allocated that cannot be shared with other processes.
+ObjectType=IntV1|0
+DisplayerName=StringV1|es_rm_svr_res_nt
+}
+}
+
+{MonItemPlus
+MonItemPlusVersion=IntV1|1
+MonitorId=IntV1|5705
+
+{MonItem
+CustomPerfItemV1=IntV1|1
+ObjId=StringV1|Process|Private Bytes|_Total
+Name=StringV1|Private Bytes (Process _Total)
+Data=StringV1|
+Description=StringV1|Private Bytes is the current size, in bytes, of memory that this process has allocated that cannot be shared with other processes.
+ObjectType=IntV1|0
+DisplayerName=StringV1|es_rm_svr_res_nt
+}
+}
+
+{MonItemPlus
+MonItemPlusVersion=IntV1|1
+MonitorId=IntV1|5705
+
+{MonItem
+CustomPerfItemV1=IntV1|1
+ObjId=StringV1|Process|IO Write Bytes/sec|httpd#1
+Name=StringV1|IO Write Bytes/sec (Process httpd#1)
+Data=StringV1|
+Description=StringV1|The rate at which the process is writing bytes to I/O operations. This counter counts all I/O activity generated by the process to include file, network and device I/Os.
+ObjectType=IntV1|0
+DisplayerName=StringV1|es_rm_svr_res_nt
+}
+}
+
+{MonItemPlus
+MonItemPlusVersion=IntV1|1
+MonitorId=IntV1|5705
+
+{MonItem
+CustomPerfItemV1=IntV1|1
+ObjId=StringV1|Process|IO Write Bytes/sec|httpd
+Name=StringV1|IO Write Bytes/sec (Process httpd)
+Data=StringV1|
+Description=StringV1|The rate at which the process is writing bytes to I/O operations. This counter counts all I/O activity generated by the process to include file, network and device I/Os.
+ObjectType=IntV1|0
+DisplayerName=StringV1|es_rm_svr_res_nt
+}
+}
+
+{MonItemPlus
+MonItemPlusVersion=IntV1|1
+MonitorId=IntV1|5705
+
+{MonItem
+CustomPerfItemV1=IntV1|1
+ObjId=StringV1|Process|IO Write Bytes/sec|_Total
+Name=StringV1|IO Write Bytes/sec (Process _Total)
+Data=StringV1|
+Description=StringV1|The rate at which the process is writing bytes to I/O operations. This counter counts all I/O activity generated by the process to include file, network and device I/Os.
+ObjectType=IntV1|0
+DisplayerName=StringV1|es_rm_svr_res_nt
+}
+}
+
+{MonItemPlus
+MonItemPlusVersion=IntV1|1
+MonitorId=IntV1|5705
+
+{MonItem
+CustomPerfItemV1=IntV1|1
+ObjId=StringV1|Process|IO Read Bytes/sec|httpd#1
+Name=StringV1|IO Read Bytes/sec (Process httpd#1)
+Data=StringV1|
+Description=StringV1|The rate at which the process is reading bytes from I/O operations. This counter counts all I/O activity generated by the process to include file, network and device I/Os.
+ObjectType=IntV1|0
+DisplayerName=StringV1|es_rm_svr_res_nt
+}
+}
+
+{MonItemPlus
+MonItemPlusVersion=IntV1|1
+MonitorId=IntV1|5705
+
+{MonItem
+CustomPerfItemV1=IntV1|1
+ObjId=StringV1|Process|IO Read Bytes/sec|httpd
+Name=StringV1|IO Read Bytes/sec (Process httpd)
+Data=StringV1|
+Description=StringV1|The rate at which the process is reading bytes from I/O operations. This counter counts all I/O activity generated by the process to include file, network and device I/Os.
+ObjectType=IntV1|0
+DisplayerName=StringV1|es_rm_svr_res_nt
+}
+}
+
+{MonItemPlus
+MonItemPlusVersion=IntV1|1
+MonitorId=IntV1|5705
+
+{MonItem
+CustomPerfItemV1=IntV1|1
+ObjId=StringV1|Process|IO Read Bytes/sec|_Total
+Name=StringV1|IO Read Bytes/sec (Process _Total)
+Data=StringV1|
+Description=StringV1|The rate at which the process is reading bytes from I/O operations. This counter counts all I/O activity generated by the process to include file, network and device I/Os.
+ObjectType=IntV1|0
+DisplayerName=StringV1|es_rm_svr_res_nt
+}
+}
+
+{MonItemPlus
+MonItemPlusVersion=IntV1|1
+MonitorId=IntV1|5705
+
+{MonItem
+CustomPerfItemV1=IntV1|1
+ObjId=StringV1|Process|% Processor Time|httpd#1
+Name=StringV1|% Processor Time (Process httpd#1)
+Data=StringV1|
+Description=StringV1|% Processor Time is the percentage of elapsed time that all of process threads used the processor to execution instructions. An instruction is the basic unit of execution in a computer, a thread is the object that executes instructions, and a process is the object created when a program is run. Code executed to handle some hardware interrupts and trap conditions are included in this count.
+ObjectType=IntV1|0
+DisplayerName=StringV1|es_rm_svr_res_nt
+}
+}
+
+{MonItemPlus
+MonItemPlusVersion=IntV1|1
+MonitorId=IntV1|5705
+
+{MonItem
+CustomPerfItemV1=IntV1|1
+ObjId=StringV1|Process|% Processor Time|httpd
+Name=StringV1|% Processor Time (Process httpd)
+Data=StringV1|
+Description=StringV1|% Processor Time is the percentage of elapsed time that all of process threads used the processor to execution instructions. An instruction is the basic unit of execution in a computer, a thread is the object that executes instructions, and a process is the object created when a program is run. Code executed to handle some hardware interrupts and trap conditions are included in this count.
+ObjectType=IntV1|0
+DisplayerName=StringV1|es_rm_svr_res_nt
+}
+}
+
+{MonItemPlus
+MonItemPlusVersion=IntV1|1
+MonitorId=IntV1|5705
+
+{MonItem
+CustomPerfItemV1=IntV1|1
+ObjId=StringV1|Process|% Processor Time|_Total
+Name=StringV1|% Processor Time (Process _Total)
+Data=StringV1|
+Description=StringV1|% Processor Time is the percentage of elapsed time that all of process threads used the processor to execution instructions. An instruction is the basic unit of execution in a computer, a thread is the object that executes instructions, and a process is the object created when a program is run. Code executed to handle some hardware interrupts and trap conditions are included in this count.
+ObjectType=IntV1|0
+DisplayerName=StringV1|es_rm_svr_res_nt
+}
+}
+}
+}
 }
 
 {J2EEMMonitoredItems
@@ -4259,7 +4689,7 @@ ItemsNumber=IntV1|0
 }
 
 {ScenarioDiagnostics
-XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "OracleDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "WebPage" enabled= "1" ></Mediator><Mediator type= "J2EE" enabled= "0" ></Mediator><Mediator type= "SiebelDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type="SAP" enabled="0"><Machine name="" type="Win2000"><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY><SERVER host="" instance="" RouterString=""><LOGIN username="" password="60277b30e" client_num=""/></SERVER></TOPOLOGY></Mediator></Mediators>
+XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "OracleDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "WebPage" enabled= "1" ></Mediator><Mediator type= "J2EE" enabled= "0" ></Mediator><Mediator type= "SiebelDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type="SAP" enabled="0"><Machine name="" type="Win2000"><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY><SERVER host="" instance="" RouterString=""><LOGIN username="" password="602cc6cae" client_num=""/></SERVER></TOPOLOGY></Mediator></Mediators>
 }
 
 {ScenarioAlertsConfig
@@ -4276,13 +4706,13 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
       <StartModes>
         <Immediately />
         <DelayAfterLTStart>0</DelayAfterLTStart>
-        <StartAt>2021-02-13T04:15:57.2147995+07:00</StartAt>
+        <StartAt>2021-02-13T04:15:57</StartAt>
       </StartModes>
     </StartMode>
     <Scheduler ID="1">
       <Name>Schedule 1</Name>
       <Manual>
-        <SchedulerType>Global</SchedulerType>
+        <SchedulerType>Groups</SchedulerType>
         <Global>
           <Scheduling>
             <IsDefaultScheduler>true</IsDefaultScheduler>
@@ -4292,8 +4722,8 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
                   <PrevAction />
                 </StartCondition>
                 <Batch>
-                  <Count>2</Count>
-                  <Interval>15</Interval>
+                  <Count>3</Count>
+                  <Interval>5</Interval>
                 </Batch>
                 <TotalVusersNumber>30</TotalVusersNumber>
               </RampUp>
@@ -4308,8 +4738,8 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
                   <PrevAction />
                 </StartCondition>
                 <Batch>
-                  <Count>5</Count>
-                  <Interval>30</Interval>
+                  <Count>3</Count>
+                  <Interval>5</Interval>
                 </Batch>
               </RampDownAll>
             </DynamicScheduling>
@@ -4317,6 +4747,78 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
         </Global>
         <Groups>
           <InitAllBeforeStart>false</InitAllBeforeStart>
+          <GroupScheduler>
+            <GroupName>new_user</GroupName>
+            <StartupMode>
+              <StartIntervalAfterScenarioBeginning>30</StartIntervalAfterScenarioBeginning>
+            </StartupMode>
+            <Scheduling>
+              <IsDefaultScheduler>true</IsDefaultScheduler>
+              <DynamicScheduling>
+                <RampUp>
+                  <StartCondition>
+                    <PrevAction />
+                  </StartCondition>
+                  <Batch>
+                    <Count>3</Count>
+                    <Interval>5</Interval>
+                  </Batch>
+                  <TotalVusersNumber>6</TotalVusersNumber>
+                </RampUp>
+                <Duration>
+                  <StartCondition>
+                    <PrevAction />
+                  </StartCondition>
+                  <RunFor>300</RunFor>
+                </Duration>
+                <RampDownAll>
+                  <StartCondition>
+                    <PrevAction />
+                  </StartCondition>
+                  <Batch>
+                    <Count>3</Count>
+                    <Interval>5</Interval>
+                  </Batch>
+                </RampDownAll>
+              </DynamicScheduling>
+            </Scheduling>
+          </GroupScheduler>
+          <GroupScheduler>
+            <GroupName>advance_user</GroupName>
+            <StartupMode>
+              <StartAtScenarioBegining />
+            </StartupMode>
+            <Scheduling>
+              <IsDefaultScheduler>true</IsDefaultScheduler>
+              <DynamicScheduling>
+                <RampUp>
+                  <StartCondition>
+                    <PrevAction />
+                  </StartCondition>
+                  <Batch>
+                    <Count>3</Count>
+                    <Interval>5</Interval>
+                  </Batch>
+                  <TotalVusersNumber>24</TotalVusersNumber>
+                </RampUp>
+                <Duration>
+                  <StartCondition>
+                    <PrevAction />
+                  </StartCondition>
+                  <RunFor>300</RunFor>
+                </Duration>
+                <RampDownAll>
+                  <StartCondition>
+                    <PrevAction />
+                  </StartCondition>
+                  <Batch>
+                    <Count>3</Count>
+                    <Interval>5</Interval>
+                  </Batch>
+                </RampDownAll>
+              </DynamicScheduling>
+            </Scheduling>
+          </GroupScheduler>
         </Groups>
       </Manual>
     </Scheduler>
@@ -4324,23 +4826,8 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
 </LoadTest>
 }
 
-{ScenarioGroupsData
-
-{SCHED_GROUP_DATA
-SCHED_GROUP_NAME=new_user
-TEST_PERCENT_DISTRIBUTION=20.00
-SCHED_USE_ANY_HOST=1
-}
-
-{SCHED_GROUP_DATA
-SCHED_GROUP_NAME=advance_user
-TEST_PERCENT_DISTRIBUTION=80.00
-SCHED_USE_ANY_HOST=1
-}
-}
-
 {ScenarioSLAConfig
-<?xml version="1.0" encoding="UTF-8"?><SLA Version="1.0"><TxList><Tx>vuser_end_Transaction</Tx><Tx>02_purchase</Tx><Tx>01_login</Tx><Tx>vuser_init_Transaction</Tx><Tx>Action_Transaction</Tx></TxList><SLARules><TrackingPeriodType>Default</TrackingPeriodType><TrackingPeriodValue></TrackingPeriodValue><TrackingPeriodTimeScale></TrackingPeriodTimeScale></SLARules></SLA>
+<?xml version="1.0" encoding="UTF-8"?><SLA Version="1.0"><TxList><Tx>vuser_end_Transaction</Tx><Tx>02_purchase</Tx><Tx>01_login</Tx><Tx>vuser_init_Transaction</Tx><Tx>Action_Transaction</Tx></TxList><SLARules><TrackingPeriodType>Default</TrackingPeriodType><TrackingPeriodValue></TrackingPeriodValue><TrackingPeriodTimeScale></TrackingPeriodTimeScale><RulesGroup Type="ComplexLoad"><Name>Complex Load Based Rules</Name><ComplexLoadRule Name="transaction_response_time_01_login"><Measurement>transaction_response_time</Measurement><SubMeasurement>01_login</SubMeasurement><CriteriaMeasurement>None</CriteriaMeasurement><CalcDirection>less_than_equal</CalcDirection><ThresholdsCollection><Threshold><StartLoadValue>NegativeInfinity</StartLoadValue><EndLoadValue>PositiveInfinity</EndLoadValue><ThresholdValue>1</ThresholdValue></Threshold></ThresholdsCollection></ComplexLoadRule><ComplexLoadRule Name="transaction_response_time_02_purchase"><Measurement>transaction_response_time</Measurement><SubMeasurement>02_purchase</SubMeasurement><CriteriaMeasurement>None</CriteriaMeasurement><CalcDirection>less_than_equal</CalcDirection><ThresholdsCollection><Threshold><StartLoadValue>NegativeInfinity</StartLoadValue><EndLoadValue>PositiveInfinity</EndLoadValue><ThresholdValue>3</ThresholdValue></Threshold></ThresholdsCollection></ComplexLoadRule></RulesGroup></SLARules></SLA>
 }
 
 {ScenarioSEVConfig
