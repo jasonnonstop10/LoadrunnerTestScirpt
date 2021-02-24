@@ -1,0 +1,5 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=C:\Users\Lenovo\Documents\GitHub\LoadrunnerTestScirpt\Ex3\Tianwit_exercise_3_Full_Load.lrs
+Completed=0

@@ -1,0 +1,2 @@
+[Hosts]
+localhost=C:\Users\Lenovo\AppData\Local\Temp\res\localhost_1.eve

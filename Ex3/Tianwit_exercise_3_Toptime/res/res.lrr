@@ -1,0 +1,32 @@
+[Scenario]
+Product=HP LoadRunner Controller
+Version=12.50.0.0
+Path=C:\Users\Lenovo\Documents\GitHub\LoadrunnerTestScirpt\Ex3\Tianwit_exercise_3_Toptime.lrs
+Subject=Tianwit_exercise_1
+Result_file=c:\users\lenovo\appdata\local\temp\res\res.lrr
+Description=
+ResultName=res
+Time_Zone=-25200
+Start_time=1614143634
+Daylight_Bias=0
+Stop_time=1614144022
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start 6 Vusers: 3 every 00:00:05 (HH:MM:SS); Run for 00:05:00 (HH:MM:SS); Stop all Vusers: 3 every 00:00:05 (HH:MM:SS)
+Load Behavior=Initialize each Vuser just before it runs
+[Scripts]
+new_user=C:\Users\Lenovo\Documents\GitHub\LoadrunnerTestScirpt\Ex1\BookFlight\BookFlight.usr
+[Scripts_types]
+new_user=Multi+QTWeb

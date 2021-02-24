@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=% Processor Time (Process httpd#1)
+DataPointLabel_1=offline_datapoint_7
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=% Processor Time (Process httpd#1)
+GraphGroupMenuTitle=Windows Resources
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=% Processor Time is the percentage of elapsed time that all of process threads used the processor to execution instructions. An instruction is the basic unit of execution in a computer, a thread is the object that executes instructions, and a process is the object created when a program is run. Code executed to handle some hardware interrupts and trap conditions are included in this count.

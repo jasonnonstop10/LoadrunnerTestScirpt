@@ -1,0 +1,13 @@
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Action.c(29): web_url("index.htm") was successful, 241794 body bytes, 5266 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(42): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(42): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(44): web_add_auto_header("Accept") started  	[MsgId: MMSG-26355]
+Action.c(44): web_add_auto_header("Accept") was successful  	[MsgId: MMSG-26392]
+Action.c(47): web_url("fwlink") started  	[MsgId: MMSG-26355]
+Action.c(47): Redirecting "https://go.microsoft.com/fwlink/?LinkID=401135" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(47): To location "https://ieonline.microsoft.com/s/iess/instrument19.cer"  	[MsgId: MMSG-26693]
+Action.c(47): Error -26609: HTTP Status-Code=503 (Service Unavailable) for "https://ieonline.microsoft.com/s/iess/instrument19.cer"  	[MsgId: MERR-26609]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

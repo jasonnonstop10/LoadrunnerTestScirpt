@@ -1,0 +1,42 @@
+[Scenario]
+Product=HP LoadRunner Controller
+Version=12.50.0.0
+Path=C:\Users\Lenovo\Documents\GitHub\LoadrunnerTestScirpt\Ex3\Tianwit_exercise_3_Overload.lrs
+Subject=Tianwit_exercise_1
+Result_file=C:\Users\Lenovo\AppData\Local\Temp\res\res.lrr
+Description=
+ResultName=res
+Time_Zone=-25200
+Start_time=1614145415
+Daylight_Bias=0
+Stop_time=1614145878
+
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+
+[Data Collection]
+FullData=1
+SummaryEnded=1
+
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Group schedule for: new_user
+Mode=Group Scheduling
+Scenario Duration=Unknown duration
+Load Behavior=Defined per scenario group
+
+[Scripts]
+Advance_user=C:\Users\Lenovo\Documents\GitHub\LoadrunnerTestScirpt\Ex1\BookFlight\BookFlight.usr
+new_user=C:\Users\Lenovo\Documents\GitHub\LoadrunnerTestScirpt\Ex1\BookFlight\BookFlight.usr
+
+[Scripts_types]
+Advance_user=Multi+QTWeb
+new_user=Multi+QTWeb
+
