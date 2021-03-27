@@ -1,0 +1,3 @@
+"advanceDiscount=0&depart=Los+Angeles&departDate=03%2F29%2F2021&arrive=San+Francisco&returnDate"
+"=03%2F30%2F2021&numPassengers=1&seatPref=Window&seatType=Business&.cgifields=roundtrip&.cgifie"
+"lds=seatType&.cgifields=seatPref&findFlights.x=64&findFlights.y=13"
