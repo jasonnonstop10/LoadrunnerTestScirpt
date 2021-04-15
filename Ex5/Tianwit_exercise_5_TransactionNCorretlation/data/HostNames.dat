@@ -1,2 +1,5 @@
 [hosts]
 127.0.0.1=
+go.microsoft.com=
+ieonline.microsoft.com=
+c.urs.microsoft.com=

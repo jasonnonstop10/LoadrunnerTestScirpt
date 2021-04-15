@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Lenovo\Documents\GitHub\LoadrunnerTestScirpt\Ex5\Tianwit_exercise_5_TransactionNCorretlation
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ec:\users\lenovo\documents\github\loadrunnertestscirpt\ex5\tianwit_exercise_5_transactionncorretlation\\logfile.log
+c:\users\lenovo\documents\github\loadrunnertestscirpt\ex5\tianwit_exercise_5_transactionncorretlation\\combined_Tianwit_exercise_5_TransactionNCorretlation.c
+c:\users\lenovo\documents\github\loadrunnertestscirpt\ex5\tianwit_exercise_5_transactionncorretlation\\pre_cci.c

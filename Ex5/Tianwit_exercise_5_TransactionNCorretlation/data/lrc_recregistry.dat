@@ -166,7 +166,7 @@ Registry settings:
 		default	false
 	TestDir
 		(Default)	
-		default	C:\Users\Lenovo\Documents\GitHub\LoadrunnerTestScirpt\Ex5\WebHttpHtml2\data\
+		default	C:\Users\Lenovo\Documents\GitHub\LoadrunnerTestScirpt\Ex5\Tianwit_exercise_5_TransactionNCorretlation\data\
 	TrapOnClient
 		default	true
 	TrapOnMainThreadOnly
@@ -328,5 +328,5 @@ Registry settings:
 		default	off
 	WorkingDir
 		(Default)	
-		default	C:\Users\Lenovo\Documents\GitHub\LoadrunnerTestScirpt\Ex5\
+		default	C:\Program Files (x86)\HP\LoadRunner\Bin\
 
