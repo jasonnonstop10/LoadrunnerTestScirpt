@@ -27,7 +27,7 @@ Action()
 
 	/* 01_Login */
 
-	lr_start_transaction("TicketPurchase_01_LogIn");
+	lr_start_transaction("TicketPurchase_01_Login");
 
 	lr_save_string(lr_decrypt("6071110c5241ac5e"), "PasswordParameter");
 
@@ -50,13 +50,11 @@ Action()
 		"Name=login.y", "Value=0", ENDITEM,
 		LAST);
 
-	lr_end_transaction("TicketPurchase_01_LogIn",LR_AUTO);
+	lr_end_transaction("TicketPurchase_01_Login",LR_AUTO);
 
 	/* 02_searchFlightsButton */
 
 	lr_think_time(27);
-	
-	lr_start_transaction("TicketPurchase_02_SelectFlightsButton");
 
 	web_url("Search Flights Button", 
 		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search", 
@@ -67,13 +65,12 @@ Action()
 		"Snapshot=t23.inf", 
 		"Mode=HTML", 
 		LAST);
-	lr_end_transaction("TicketPurchase_02_SelectFlightsButton",LR_AUTO);
 
 	/* 03_FindFlight */
 
 	lr_think_time(57);
 
-	lr_start_transaction("TicketPurchase_03_FindFlight");
+	lr_start_transaction("TicketPurchase_02_FindFlight");
 
 	web_submit_data("reservations.pl", 
 		"Action=http://127.0.0.1:1080/cgi-bin/reservations.pl", 
@@ -99,13 +96,13 @@ Action()
 		"Name=findFlights.y", "Value=17", ENDITEM, 
 		LAST);
 
-	lr_end_transaction("TicketPurchase_03_FindFlight",LR_AUTO);
+	lr_end_transaction("TicketPurchase_02_FindFlight",LR_AUTO);
 
 	/* 04_SelectFlight */
 
 	lr_think_time(42);
 
-	lr_start_transaction("TicketPurchase_04_SelectFlight");
+	lr_start_transaction("TicketPurchase_03_SelectFlight");
 
 	web_submit_data("reservations.pl_2", 
 		"Action=http://127.0.0.1:1080/cgi-bin/reservations.pl", 
@@ -125,13 +122,13 @@ Action()
 		"Name=reserveFlights.y", "Value=8", ENDITEM, 
 		LAST);
 
-	lr_end_transaction("TicketPurchase_04_SelectFlight",LR_AUTO);
+	lr_end_transaction("TicketPurchase_03_SelectFlight",LR_AUTO);
 
 	/* 05_paymentDetails */
 
 	lr_think_time(76);
 
-	lr_start_transaction("TicketPurchase_05_PaymentDetails");
+	lr_start_transaction("TicketPurchase_04_paymentDetails");
 
 	web_submit_data("reservations.pl_3", 
 		"Action=http://127.0.0.1:1080/cgi-bin/reservations.pl", 
@@ -162,13 +159,13 @@ Action()
 		"Name=buyFlights.y", "Value=4", ENDITEM, 
 		LAST);
 
-	lr_end_transaction("TicketPurchase_05_PaymentDetails",LR_AUTO);
+	lr_end_transaction("TicketPurchase_04_paymentDetails",LR_AUTO);
 
-	/* 06_SignOff */
+	/* 06_Logout */
 
 	lr_think_time(47);
 
-	lr_start_transaction("TicketPurchase_06_SignOff");
+	lr_start_transaction("TicketPurchase_05_logout");
 
 	web_url("SignOff Button", 
 		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1", 
@@ -180,7 +177,7 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
-	lr_end_transaction("TicketPurchase_06_SignOff",LR_AUTO);
+	lr_end_transaction("TicketPurchase_05_logout",LR_AUTO);
 
 	/* endTest */
 

@@ -122,7 +122,7 @@
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="4/17/2021 - 13:35:14" eTime="4/17/2021 - 13:35:14" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="4/10/2021 - 15:14:42" eTime="4/10/2021 - 15:14:42" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -134,16 +134,16 @@
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param RegExp]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>userSession</FONT></STRONG><BR>RegExp = <STRONG><FONT COLOR=#00AF00>name="userSession"\ value="(.*?)"/>\
 <table\ border</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>[param not passed in call]</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[4/17/2021 - 13:35:14]]></Time>
+<Time><![CDATA[4/10/2021 - 15:14:42]]></Time>
 <NodeArgs eType="General" icon="4" nRep="9" >
 <Disp><![CDATA[Service: Reg Save Param RegExp]]></Disp>
 </NodeArgs>
 </Step>
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Url: index.htm]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[4/17/2021 - 13:35:14]]></Time>
-<NodeArgs eType="General" icon="5" nRep="10" status="Passed" >
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#FF0031>Step failed</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[4/10/2021 - 15:14:44]]></Time>
+<NodeArgs eType="General" icon="5" nRep="10" status="Failed" >
 <Disp><![CDATA[Url: index.htm]]></Disp>
 <BtmPane vType="HTMLSNSH">
 <Path><![CDATA[\Iteration1\t2.inf]]></Path>
@@ -151,89 +151,31 @@
 </NodeArgs>
 </Step>
 <Step rID="T7">
-<Obj plainTxt="False" ><![CDATA[Submit Data: login.pl]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[4/17/2021 - 13:35:14]]></Time>
-<NodeArgs eType="General" icon="6" nRep="11" status="Passed" >
-<Disp><![CDATA[Submit Data: login.pl]]></Disp>
-<BtmPane vType="HTMLSNSH">
-<Path><![CDATA[\Iteration1\t3.inf]]></Path>
-</BtmPane>
+<Obj plainTxt="False" ><![CDATA[Script Aborted!]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#FF0031>Failed</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[4/10/2021 - 15:14:44]]></Time>
+<NodeArgs eType="General" icon="1" nRep="11" status="Failed" >
+<Disp><![CDATA[Script Aborted!]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T8">
-<Obj plainTxt="False" ><![CDATA[Url: Search Flights Button]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[4/17/2021 - 13:35:14]]></Time>
-<NodeArgs eType="General" icon="5" nRep="12" status="Passed" >
-<Disp><![CDATA[Url: Search Flights Button]]></Disp>
-<BtmPane vType="HTMLSNSH">
-<Path><![CDATA[\Iteration1\t4.inf]]></Path>
-</BtmPane>
-</NodeArgs>
-</Step>
-<Step rID="T9">
-<Obj plainTxt="False" ><![CDATA[Submit Data: reservations.pl]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[4/17/2021 - 13:35:15]]></Time>
-<NodeArgs eType="General" icon="6" nRep="13" status="Passed" >
-<Disp><![CDATA[Submit Data: reservations.pl]]></Disp>
-<BtmPane vType="HTMLSNSH">
-<Path><![CDATA[\Iteration1\t5.inf]]></Path>
-</BtmPane>
-</NodeArgs>
-</Step>
-<Step rID="T10">
-<Obj plainTxt="False" ><![CDATA[Submit Data: reservations.pl_2]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[4/17/2021 - 13:35:15]]></Time>
-<NodeArgs eType="General" icon="6" nRep="14" status="Passed" >
-<Disp><![CDATA[Submit Data: reservations.pl_2]]></Disp>
-<BtmPane vType="HTMLSNSH">
-<Path><![CDATA[\Iteration1\t6.inf]]></Path>
-</BtmPane>
-</NodeArgs>
-</Step>
-<Step rID="T11">
-<Obj plainTxt="False" ><![CDATA[Submit Data: reservations.pl_3]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[4/17/2021 - 13:35:15]]></Time>
-<NodeArgs eType="General" icon="6" nRep="15" status="Passed" >
-<Disp><![CDATA[Submit Data: reservations.pl_3]]></Disp>
-<BtmPane vType="HTMLSNSH">
-<Path><![CDATA[\Iteration1\t7.inf]]></Path>
-</BtmPane>
-</NodeArgs>
-</Step>
-<Step rID="T12">
-<Obj plainTxt="False" ><![CDATA[Url: SignOff Button]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[4/17/2021 - 13:35:15]]></Time>
-<NodeArgs eType="General" icon="5" nRep="16" status="Passed" >
-<Disp><![CDATA[Url: SignOff Button]]></Disp>
-<BtmPane vType="HTMLSNSH">
-<Path><![CDATA[\Iteration1\t8.inf]]></Path>
-</BtmPane>
-</NodeArgs>
-</Step>
-<Summary sTime="4/17/2021 - 13:35:14" eTime="4/17/2021 - 13:35:15" passed="7" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
+<Summary sTime="4/10/2021 - 15:14:42" eTime="4/10/2021 - 15:14:44" passed="0" failed="2" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="8" status="Failed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
 </Action>
-<NodeArgs eType="StartIteration" icon="3" nRep="7" status="Passed" >
+<NodeArgs eType="StartIteration" icon="3" nRep="7" status="Failed" >
 <Disp><![CDATA[Tianwit_exercise_5_TransactionNCorretlation Iteration 1 (Row 1)]]></Disp>
 </NodeArgs>
 </DIter>
-<Action rID="T13">
+<Action rID="T8">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="4/17/2021 - 13:35:15" eTime="4/17/2021 - 13:35:15" passed="0" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="19" >
+<Summary sTime="4/10/2021 - 15:14:44" eTime="4/10/2021 - 15:14:44" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="14" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="4/17/2021 - 13:35:14" eTime="4/17/2021 - 13:35:15" passed="7" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
+<Summary sTime="4/10/2021 - 15:14:42" eTime="4/10/2021 - 15:14:44" passed="0" failed="2" warnings="0" ></Summary>
+<NodeArgs eType="StartTest" icon="1" nRep="4" status="Failed" >
 <Disp><![CDATA[Test Tianwit_exercise_5_TransactionNCorretlation Summary]]></Disp>
 </NodeArgs>
 </Doc>
