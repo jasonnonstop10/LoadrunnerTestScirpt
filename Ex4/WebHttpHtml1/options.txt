@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IC:\Users\Lenovo\Documents\GitHub\LoadrunnerTestScirpt\Ex4\WebHttpHtml1
--IC:\Program Files (x86)\HP\LoadRunner\include
--ec:\users\lenovo\documents\github\loadrunnertestscirpt\ex4\webhttphtml1\\logfile.log
-c:\users\lenovo\documents\github\loadrunnertestscirpt\ex4\webhttphtml1\\combined_WebHttpHtml1.c
-c:\users\lenovo\documents\github\loadrunnertestscirpt\ex4\webhttphtml1\\pre_cci.c
