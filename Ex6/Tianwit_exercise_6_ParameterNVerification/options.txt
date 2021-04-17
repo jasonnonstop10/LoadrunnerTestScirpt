@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Lenovo\Documents\GitHub\LoadrunnerTestScirpt\Ex6\Tianwit_exercise_6_ParameterNVerification
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ec:\users\lenovo\documents\github\loadrunnertestscirpt\ex6\tianwit_exercise_6_parameternverification\\logfile.log
+c:\users\lenovo\documents\github\loadrunnertestscirpt\ex6\tianwit_exercise_6_parameternverification\\combined_Tianwit_exercise_6_ParameterNVerification.c
+c:\users\lenovo\documents\github\loadrunnertestscirpt\ex6\tianwit_exercise_6_parameternverification\\pre_cci.c
