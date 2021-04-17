@@ -33,6 +33,7 @@
     <FileEntry Name="Tianwit_exercise_5_TransactionNCorretlation.c.pickle" Filter="1" />
     <FileEntry Name="Tianwit_exercise_5_TransactionNCorretlation.ci" Filter="1" />
     <FileEntry Name="Tianwit_exercise_5_TransactionNCorretlation.sdf" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="data\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
   </GeneralFiles>
