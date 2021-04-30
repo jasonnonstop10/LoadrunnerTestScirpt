@@ -1,4 +1,4 @@
-# 1 "c:\\users\\lenovo\\documents\\github\\loadrunnertestscirpt\\ex1\\bookflight\\\\combined_BookFlight.c"
+# 1 "c:\\users\\user-dell\\desktop\\bookflight\\\\combined_BookFlight.c"
 # 1 "C:\\Program Files (x86)\\HP\\LoadRunner\\include/lrun.h" 1
  
  
@@ -935,7 +935,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\lenovo\\documents\\github\\loadrunnertestscirpt\\ex1\\bookflight\\\\combined_BookFlight.c" 2
+# 1 "c:\\users\\user-dell\\desktop\\bookflight\\\\combined_BookFlight.c" 2
 
 # 1 "C:\\Program Files (x86)\\HP\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1091,7 +1091,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\lenovo\\documents\\github\\loadrunnertestscirpt\\ex1\\bookflight\\\\combined_BookFlight.c" 2
+# 2 "c:\\users\\user-dell\\desktop\\bookflight\\\\combined_BookFlight.c" 2
 
 # 1 "globals.h" 1
 
@@ -2423,14 +2423,14 @@ void
 
 
 
-# 3 "c:\\users\\lenovo\\documents\\github\\loadrunnertestscirpt\\ex1\\bookflight\\\\combined_BookFlight.c" 2
+# 3 "c:\\users\\user-dell\\desktop\\bookflight\\\\combined_BookFlight.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\lenovo\\documents\\github\\loadrunnertestscirpt\\ex1\\bookflight\\\\combined_BookFlight.c" 2
+# 4 "c:\\users\\user-dell\\desktop\\bookflight\\\\combined_BookFlight.c" 2
 
 # 1 "Action.c" 1
 Action()
@@ -2499,7 +2499,7 @@ Action()
 	web_add_header("Cache-Control", 
 		"no-cache");
 
-	lr_think_time(20);
+	lr_think_time(110);
 
 	web_submit_data("login.pl", 
 		"Action=http://127.0.0.1:1080/cgi-bin/login.pl", 
@@ -2519,7 +2519,7 @@ Action()
 
 	lr_end_transaction("01_login",2);
 
-	lr_think_time(3);
+	lr_think_time(18);
 
 	web_image("Search Flights Button", 
 		"Alt=Search Flights Button", 
@@ -2529,7 +2529,7 @@ Action()
 	web_add_auto_header("Cache-Control", 
 		"no-cache");
 
-	lr_think_time(10);
+	lr_think_time(14);
 
 	web_submit_form("reservations.pl", 
 		"Snapshot=t6.inf", 
@@ -2546,7 +2546,7 @@ Action()
 		"Name=findFlights.y", "Value=11", "ENDITEM", 
 		"LAST");
 
-	lr_think_time(5);
+	lr_think_time(4);
 
 	web_submit_form("reservations.pl_2", 
 		"Snapshot=t7.inf", 
@@ -2564,7 +2564,7 @@ Action()
 	web_add_header("Cache-Control", 
 		"no-cache");
 
-	lr_think_time(20);
+	lr_think_time(45);
 
 	web_submit_form("reservations.pl_3", 
 		"Snapshot=t8.inf", 
@@ -2593,12 +2593,12 @@ Action()
 
 	return 0;
 }
-# 5 "c:\\users\\lenovo\\documents\\github\\loadrunnertestscirpt\\ex1\\bookflight\\\\combined_BookFlight.c" 2
+# 5 "c:\\users\\user-dell\\desktop\\bookflight\\\\combined_BookFlight.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\lenovo\\documents\\github\\loadrunnertestscirpt\\ex1\\bookflight\\\\combined_BookFlight.c" 2
+# 6 "c:\\users\\user-dell\\desktop\\bookflight\\\\combined_BookFlight.c" 2
 

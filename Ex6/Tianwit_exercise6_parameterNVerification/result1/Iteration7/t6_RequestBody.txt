@@ -1,0 +1,3 @@
+"advanceDiscount=0&depart=London&departDate=04%2F29%2F21&arrive=Sydney&returnDate=04%2F30%2F21&"
+"numPassengers=1&seatPref=Window&seatType=Business&.cgifields=roundtrip&.cgifields=seatType&.cg"
+"ifields=seatPref&findFlights.x=33&findFlights.y=10"

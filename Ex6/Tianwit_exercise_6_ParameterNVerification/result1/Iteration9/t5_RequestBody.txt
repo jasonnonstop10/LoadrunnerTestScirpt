@@ -1,3 +1,0 @@
-"advanceDiscount=0&depart=San+Francisco&departDate=04%2F15%2F21&arrive=Denver&returnDate=04%2F1"
-"4%2F21&numPassengers=1&seatPref=Window&seatType=Coach&.cgifields=roundtrip&.cgifields=seatType"
-"&.cgifields=seatPref&findFlights.x=54&findFlights.y=1"

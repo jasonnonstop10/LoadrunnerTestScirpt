@@ -1,0 +1,407 @@
+[API Trapper      (43e4:3194)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer (43e4:3d4c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (43e4:3d4c)] Load Network Traffic Analyzers:
+[Network Analyzer (43e4:3d4c)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (43e4:3d4c)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (43e4:3d4c)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (43e4:3d4c)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (43e4:3d4c)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (43e4:3d4c)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (43e4:3d4c)]     Analyzer Module: local_server (value=)
+[Network Analyzer (43e4:3d4c)] ------------------------------------------------------------------------------------------
+[API Trapper      (28ac:33f8)] Recording in 64-bit mode: C:\WINDOWS\system32\IESettingSync.exe
+[Network Analyzer (43e4:2670)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:3d4c)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:3d4c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (43e4:3d4c)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Web Request      (43e4:2670)] "GET /WebTours/index.htm"   
+[Network Analyzer (43e4:2670)]   (Sid:  1) Client -> Server @ : 317 bytes (Service=HTTP)
+[Network Analyzer (43e4:3d4c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (43e4:2670)]   (Sid:  1) Server -> Client : 664 bytes  (Service=HTTP)
+[Network Analyzer (43e4:3d4c)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:3d4c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (43e4:3d4c)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:3d4c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      (43e4:2670)] "GET /WebTours/header.html"   
+[Network Analyzer (43e4:2670)]   (Sid:  1) Client -> Server @ : 370 bytes (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid:  1) Server -> Client : 1007 bytes  (Service=HTTP)
+[Web Request      (43e4:2670)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (43e4:2670)]   (Sid:  2) Client -> Server @ : 381 bytes (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid:  2) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (43e4:2670)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer (43e4:2670)]   (Sid:  2) Client -> Server @ : 420 bytes (Service=HTTP)
+[Web Request      (43e4:2670)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer (43e4:2670)]   (Sid:  1) Client -> Server @ : 421 bytes (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid:  1) Server -> Client : 4486 bytes  (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid:  2) Server -> Client : 898 bytes  (Service=HTTP)
+[Web Request      (43e4:2670)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (43e4:2670)]   (Sid:  1) Client -> Server @ : 413 bytes (Service=HTTP)
+[Web Request      (43e4:2670)] "GET /WebTours/home.html"   
+[Network Analyzer (43e4:2670)]   (Sid:  2) Client -> Server @ : 409 bytes (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid:  2) Server -> Client : 1659 bytes  (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid:  1) Server -> Client : 1746 bytes  (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid:  1) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (43e4:2670)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (43e4:2670)]   (Sid:  1) Client -> Server @ : 424 bytes (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid:  1) Server -> Client : 976 bytes  (Service=HTTP)
+[Web Request      (43e4:2670)] "GET /favicon.ico"   
+[Network Analyzer (43e4:2670)]   (Sid:  1) Client -> Server @ : 251 bytes (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid:  1) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (43e4:3d4c)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4: 6b4)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:1820)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:17e8)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:4340)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:2968)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:4340)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (43e4:1820)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (43e4: 6b4)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (43e4:2968)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (43e4:17e8)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (43e4:3d4c)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (43e4:2670)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer (43e4:2670)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer (43e4:3258)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (43e4:28c4)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (43e4:434c)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (43e4:1b34)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (43e4:1dbc)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (43e4: 744)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (43e4: 6b4)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4: 6b4)] Request Connection: Remote Server @ 204.79.197.203:80   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      (43e4:2670)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBQZif2SL2Dca2YsM5ZwqY8qkniRuQQUdrhN80RYwiB6jEYlzu51%2FeWrxHcCEzMADi2AkRtvQUCD3VUAAAAOLYA%3D"   
+[Network Analyzer (43e4:2670)]   (Sid: 11) Client -> Server @ : 247 bytes (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 11) Server -> Client : 467 bytes  (Service=HTTP)
+[Web Request      (43e4:2670)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBQZif2SL2Dca2YsM5ZwqY8qkniRuQQUdrhN80RYwiB6jEYlzu51%2FeWrxHcCEzMADi2AkRtvQUCD3VUAAAAOLYA%3D"   
+[Network Analyzer (43e4:2670)]   (Sid: 11) Client -> Server @ : 290 bytes (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 11) Server -> Client : 466 bytes  (Service=HTTP)
+[Net An. Error    (43e4:434c)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (43e4: 744)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (43e4:1b34)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (43e4:28c4)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (43e4:3258)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (43e4:1dbc)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (43e4:3d4c)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:2670)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (43e4:2670)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (43e4:2670)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (43e4:2670)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (43e4:2670)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (43e4:2670)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (43e4:3d4c)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (43e4:388c)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (43e4:388c)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (43e4:3d4c)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:2670)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (43e4:3d4c)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (43e4:2d4c)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (43e4:2d4c)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (43e4:3d4c)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:2670)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer (43e4:3d4c)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (43e4:16dc)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (43e4:16dc)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (43e4:3d4c)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:2670)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer (43e4:3d4c)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (43e4:1530)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (43e4:1530)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[User action                 ] StartTransactionEvent TicketPurchase_01_LogIn [Network Analyzer (43e4:2670)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer (43e4:44d4)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:44d4)] Request Connection: Remote Server @ 111.84.189.243:80   (Service=)  (Sid= 16)  PROXIED!
+[Web Request      (43e4:2670)] "GET /pkiops/crl/Microsoft%20Azure%20TLS%20Issuing%20CA%2001.crl"   
+[Network Analyzer (43e4:2670)]   (Sid: 16) Client -> Server @ : 176 bytes (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (43e4:3d4c)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:2670)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (43e4:3d4c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 17)  PROXIED!
+[Web Request      (43e4:2670)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (43e4:2670)]   (Sid: 17) Client -> Server @ : 612 bytes (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 17) Server -> Client : 899 bytes  (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 17) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (43e4:2670)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (43e4:2670)]   (Sid: 17) Client -> Server @ : 570 bytes (Service=HTTP)
+[Network Analyzer (43e4:3d4c)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:3d4c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (43e4: c58)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:2670)]   (Sid: 17) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 17) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (43e4:2670)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (43e4:2670)]   (Sid: 18) Client -> Server @ : 565 bytes (Service=HTTP)
+[Web Request      (43e4:2670)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer (43e4:2670)]   (Sid: 17) Client -> Server @ : 594 bytes (Service=HTTP)
+[Network Analyzer (43e4:1f30)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:1f30)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (43e4:478c)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Web Request      (43e4:2670)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer (43e4:2670)]   (Sid: 19) Client -> Server @ : 596 bytes (Service=HTTP)
+[Network Analyzer (43e4:478c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (43e4:2c04)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:2670)]   (Sid: 19) Server -> Client : 1031 bytes  (Service=HTTP)
+[Web Request      (43e4:2670)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer (43e4:2670)]   (Sid: 20) Client -> Server @ : 594 bytes (Service=HTTP)
+[Web Request      (43e4:2670)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer (43e4:1c58)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:2670)]   (Sid: 19) Client -> Server @ : 594 bytes (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 20) Server -> Client : 1049 bytes  (Service=HTTP)
+[Network Analyzer (43e4:2c04)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (43e4:2670)]   (Sid: 19) Server -> Client : 985 bytes  (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 18) Server -> Client : 1155 bytes  (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 18) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 17) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer (43e4: c58)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (43e4:2c04)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4: c58)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:1c58)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (43e4: c58)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (43e4:2c04)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (43e4:246c)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Web Request      (43e4:2670)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBQZif2SL2Dca2YsM5ZwqY8qkniRuQQUdrhN80RYwiB6jEYlzu51%2FeWrxHcCEzMADi2AkRtvQUCD3VUAAAAOLYA%3D"   
+[Network Analyzer (43e4:2670)]   (Sid: 11) Client -> Server @ : 247 bytes (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 11) Server -> Client : 466 bytes  (Service=HTTP)
+[Web Request      (43e4:2670)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBQZif2SL2Dca2YsM5ZwqY8qkniRuQQUdrhN80RYwiB6jEYlzu51%2FeWrxHcCEzMADi2AkRtvQUCD3VUAAAAOLYA%3D"   
+[Network Analyzer (43e4:2670)]   (Sid: 11) Client -> Server @ : 290 bytes (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 11) Server -> Client : 466 bytes  (Service=HTTP)
+[Net An. Error    (43e4:246c)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (43e4: 278)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (43e4: 278)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (43e4:1c2c)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (43e4:1c2c)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (43e4:3f50)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (43e4:3f50)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (43e4:2670)]   (Sid: 22) Connection Terminated (by Client)
+[Network Analyzer (43e4:2670)]   (Sid: 23) Connection Terminated (by Client)
+[Network Analyzer (43e4:2670)]   (Sid: 24) Connection Terminated (by Client)
+[Network Analyzer (43e4:2670)]   (Sid: 25) Connection Terminated (by Client)
+[Network Analyzer (43e4:2880)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:2880)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (43e4:2234)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (43e4:2234)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (43e4:2670)]   (Sid: 26) Connection Terminated (by Client)
+[Network Analyzer (43e4:478c)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:478c)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (43e4:3d4c)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:44d4)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:3d4c)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (43e4:44d4)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (43e4:46dc)]   (Sid: 27) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (43e4:46dc)]   (Sid: 27) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (43e4:2650)]   (Sid: 28) SSL handshake with remote server Failed!
+[Network Analyzer (43e4:2670)]   (Sid: 19) Connection Terminated (by Server)
+[Network Analyzer (43e4:2670)]   (Sid: 20) Connection Terminated (by Server)
+[Network Analyzer (43e4:2670)]   (Sid: 27) Connection Terminated (by Client)
+[Network Analyzer (43e4:2670)]   (Sid: 17) Connection Terminated (by Server)
+[Network Analyzer (43e4:2670)]   (Sid: 18) Connection Terminated (by Server)
+[Net An. Error    (43e4:3768)]   (Sid: 29) SSL handshake with remote server Failed!
+[User action                 ] EndTransactionEvent TicketPurchase_01_LogIn [User action                 ] StartTransactionEvent TicketPurchase_02_SelectFlightsButton [Network Analyzer (43e4:2670)]   (Sid: 21) Connection Terminated (by Client)
+[Network Analyzer (43e4:4340)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:4340)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 30)  PROXIED!
+[Web Request      (43e4:2670)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer (43e4:2670)]   (Sid: 30) Client -> Server @ : 584 bytes (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 30) Server -> Client : 839 bytes  (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 30) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (43e4:2670)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer (43e4:2670)]   (Sid: 30) Client -> Server @ : 587 bytes (Service=HTTP)
+[Network Analyzer (43e4:4340)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:4340)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer (43e4:478c)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:2670)]   (Sid: 30) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 30) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (43e4:2670)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer (43e4:2670)]   (Sid: 31) Client -> Server @ : 588 bytes (Service=HTTP)
+[Web Request      (43e4:2670)] "GET /WebTours/images/in_flights.gif"   
+[Network Analyzer (43e4:2670)]   (Sid: 30) Client -> Server @ : 600 bytes (Service=HTTP)
+[Network Analyzer (43e4:3d4c)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:3d4c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer (43e4:44d4)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Web Request      (43e4:2670)] "GET /WebTours/images/home.gif"   
+[Network Analyzer (43e4:2670)]   (Sid: 32) Client -> Server @ : 594 bytes (Service=HTTP)
+[Network Analyzer (43e4:478c)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (43e4:2670)]   (Sid: 32) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 30) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer (43e4:478c)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:44d4)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 34)  PROXIED!
+[Network Analyzer (43e4:2670)]   (Sid: 31) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 31) Server -> Client : 286 bytes  (Service=HTTP)
+[Web Request      (43e4:2670)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer (43e4:2670)]   (Sid: 31) Client -> Server @ : 602 bytes (Service=HTTP)
+[Network Analyzer (43e4:478c)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 35)  PROXIED!
+[Network Analyzer (43e4:2670)]   (Sid: 31) Server -> Client : 1055 bytes  (Service=HTTP)
+[Web Request      (43e4:2670)] "GET /WebTours/classes/"   
+[Network Analyzer (43e4:2670)]   (Sid: 31) Client -> Server @ : 561 bytes (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 31) Server -> Client : 434 bytes  (Service=HTTP)
+[Network Analyzer (43e4:2880)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:1f30)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:3434)]   (Sid: 33) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Web Request      (43e4:2670)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBQZif2SL2Dca2YsM5ZwqY8qkniRuQQUdrhN80RYwiB6jEYlzu51%2FeWrxHcCEzMADi2AkRtvQUCD3VUAAAAOLYA%3D"   
+[Network Analyzer (43e4:2670)]   (Sid: 11) Client -> Server @ : 247 bytes (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 11) Server -> Client : 466 bytes  (Service=HTTP)
+[Network Analyzer (43e4:1f30)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 36)  PROXIED!
+[Network Analyzer (43e4:2880)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 37)  PROXIED!
+[Web Request      (43e4:2670)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBQZif2SL2Dca2YsM5ZwqY8qkniRuQQUdrhN80RYwiB6jEYlzu51%2FeWrxHcCEzMADi2AkRtvQUCD3VUAAAAOLYA%3D"   
+[Network Analyzer (43e4:2670)]   (Sid: 11) Client -> Server @ : 290 bytes (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 11) Server -> Client : 466 bytes  (Service=HTTP)
+[Web Request      (43e4:2670)] "GET /pkiops/crl/Microsoft%20Azure%20TLS%20Issuing%20CA%2001.crl"   
+[Network Analyzer (43e4:2670)]   (Sid: 16) Client -> Server @ : 176 bytes (Service=HTTP)
+[Network Analyzer (43e4:1614)]   (Sid: 34) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (43e4:2670)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Web Request      (43e4:2670)] "GET /pkiops/crl/Microsoft%20Azure%20TLS%20Issuing%20CA%2001.crl"   
+[Network Analyzer (43e4:2670)]   (Sid: 16) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 16) Server -> Client : 1400 bytes  (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 16) Server -> Client : 60 bytes  (Service=HTTP)
+[Net An. Error    (43e4:3434)]   (Sid: 33) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (43e4:1614)]   (Sid: 34) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (43e4:4780)]   (Sid: 35) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (43e4:4780)]   (Sid: 35) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (43e4:3354)]   (Sid: 36) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (43e4:3354)]   (Sid: 36) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (43e4:11e8)]   (Sid: 37) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (43e4:11e8)]   (Sid: 37) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Web Request      (43e4:2670)] "GET /WebTours/classes/"   
+[Network Analyzer (43e4:2670)]   (Sid: 31) Client -> Server @ : 561 bytes (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 33) Connection Terminated (by Client)
+[Network Analyzer (43e4:2670)]   (Sid: 34) Connection Terminated (by Client)
+[Network Analyzer (43e4:2670)]   (Sid: 35) Connection Terminated (by Client)
+[Network Analyzer (43e4:2670)]   (Sid: 36) Connection Terminated (by Client)
+[Network Analyzer (43e4:2670)]   (Sid: 37) Connection Terminated (by Client)
+[Network Analyzer (43e4:44d4)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:2670)]   (Sid: 31) Server -> Client : 434 bytes  (Service=HTTP)
+[Network Analyzer (43e4:44d4)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 38)  PROXIED!
+[Network Analyzer (43e4:32a4)]   (Sid: 38) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (43e4:32a4)]   (Sid: 38) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (43e4:478c)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:2670)]   (Sid: 38) Connection Terminated (by Client)
+[Network Analyzer (43e4:478c)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 39)  PROXIED!
+[Network Analyzer (43e4:2f18)]   (Sid: 39) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (43e4:2f18)]   (Sid: 39) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (43e4:478c)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:2670)]   (Sid: 39) Connection Terminated (by Client)
+[Network Analyzer (43e4:478c)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 40)  PROXIED!
+[Network Analyzer (43e4:1ea0)]   (Sid: 40) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (43e4:1ea0)]   (Sid: 40) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (43e4:2670)]   (Sid: 40) Connection Terminated (by Client)
+[Network Analyzer (43e4:2670)]   (Sid: 32) Connection Terminated (by Server)
+[Network Analyzer (43e4:2670)]   (Sid: 30) Connection Terminated (by Server)
+[Network Analyzer (43e4:2670)]   (Sid: 31) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent TicketPurchase_02_SelectFlightsButton [User action                 ] StartTransactionEvent TicketPurchase_03_FindFlight [Network Analyzer (43e4:478c)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:478c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 41)  PROXIED!
+[Network Analyzer (43e4:44d4)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Web Request      (43e4:2670)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (43e4:2670)]   (Sid: 41) Client -> Server @ : 928 bytes (Service=HTTP)
+[Network Analyzer (43e4:44d4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 42)  PROXIED!
+[Network Analyzer (43e4:2670)]   (Sid: 41) Server -> Client : 2718 bytes  (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 41) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (43e4:44d4)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:4340)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:44d4)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 43)  PROXIED!
+[Network Analyzer (43e4:4340)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 44)  PROXIED!
+[Network Analyzer (43e4:46d8)]   (Sid: 43) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Web Request      (43e4:2670)] "GET /pkiops/crl/Microsoft%20Azure%20TLS%20Issuing%20CA%2001.crl"   
+[Network Analyzer (43e4:2670)]   (Sid: 16) Client -> Server @ : 176 bytes (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Web Request      (43e4:2670)] "GET /pkiops/crl/Microsoft%20Azure%20TLS%20Issuing%20CA%2001.crl"   
+[Network Analyzer (43e4:2670)]   (Sid: 16) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 16) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (43e4: c78)]   (Sid: 44) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (43e4:46d8)]   (Sid: 43) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (43e4: c78)]   (Sid: 44) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (43e4:2670)]   (Sid: 43) Connection Terminated (by Client)
+[Network Analyzer (43e4:2670)]   (Sid: 44) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent TicketPurchase_03_FindFlight [Network Analyzer (43e4:2670)]   (Sid: 41) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent TicketPurchase_04_SelectFlight [Network Analyzer (43e4:2670)]   (Sid: 42) Connection Terminated (by Client)
+[Network Analyzer (43e4:44d4)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:44d4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 45)  PROXIED!
+[Network Analyzer (43e4:478c)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Web Request      (43e4:2670)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (43e4:2670)]   (Sid: 45) Client -> Server @ : 811 bytes (Service=HTTP)
+[Network Analyzer (43e4:478c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 46)  PROXIED!
+[Network Analyzer (43e4:2670)]   (Sid: 45) Server -> Client : 3067 bytes  (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 45) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (43e4:478c)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:4340)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:478c)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 47)  PROXIED!
+[Network Analyzer (43e4:4340)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 48)  PROXIED!
+[Network Analyzer (43e4:3e84)]   (Sid: 47) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (43e4:3e84)]   (Sid: 47) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (43e4:2670)]   (Sid: 47) Connection Terminated (by Client)
+[Network Analyzer (43e4:1bb8)]   (Sid: 48) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (43e4:1bb8)]   (Sid: 48) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[User action                 ] EndTransactionEvent TicketPurchase_04_SelectFlight [Network Analyzer (43e4:2670)]   (Sid: 48) Connection Terminated (by Client)
+[Network Analyzer (43e4:2670)]   (Sid: 45) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent TicketPurchase_05_PaymentDetails [Network Analyzer (43e4:2670)]   (Sid: 46) Client -> Server @ : 664 bytes (Service=HTTP)
+[Web Request      (43e4:2670)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (43e4:2670)]   (Sid: 46) Client -> Server @ : 361 bytes (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 46) Server -> Client : 2946 bytes  (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 46) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (43e4:2670)] "GET /WebTours/images/bookanother.gif"   
+[Network Analyzer (43e4:2670)]   (Sid: 46) Client -> Server @ : 586 bytes (Service=HTTP)
+[Network Analyzer (43e4:44d4)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:2670)]   (Sid: 46) Server -> Client : 1103 bytes  (Service=HTTP)
+[Network Analyzer (43e4:478c)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:44d4)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 49)  PROXIED!
+[Network Analyzer (43e4:478c)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 50)  PROXIED!
+[Network Analyzer (43e4:3e64)]   (Sid: 49) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (43e4:3e64)]   (Sid: 49) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (43e4:2670)]   (Sid: 49) Connection Terminated (by Client)
+[Network Analyzer (43e4: e90)]   (Sid: 50) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (43e4: e90)]   (Sid: 50) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[User action                 ] EndTransactionEvent TicketPurchase_05_PaymentDetails [Network Analyzer (43e4:2670)]   (Sid: 50) Connection Terminated (by Client)
+[Network Analyzer (43e4:2670)]   (Sid: 46) Connection Terminated (by Server)
+[WebMultiInProcNotify_x64:  (43e4:150c)] Insert Text Check: "Thank you for booking through Web Tours."
+[User action                 ] StartTransactionEvent TicketPurchase_06_SignOff [Network Analyzer (43e4:3d4c)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:3d4c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 51)  PROXIED!
+[Network Analyzer (43e4:4340)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Web Request      (43e4:2670)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (43e4:2670)]   (Sid: 51) Client -> Server @ : 582 bytes (Service=HTTP)
+[Network Analyzer (43e4:4340)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 52)  PROXIED!
+[Network Analyzer (43e4:2670)]   (Sid: 51) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 51) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (43e4:2670)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (43e4:2670)]   (Sid: 51) Client -> Server @ : 410 bytes (Service=HTTP)
+[Web Request      (43e4:2670)] "GET /WebTours/home.html"   
+[Network Analyzer (43e4:2670)]   (Sid: 52) Client -> Server @ : 506 bytes (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 52) Server -> Client : 194 bytes  (Service=HTTP)
+[Network Analyzer (43e4:44d4)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:254c)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:3f90)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:2670)]   (Sid: 51) Server -> Client : 1750 bytes  (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 51) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (43e4: c58)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:44d4)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 53)  PROXIED!
+[Network Analyzer (43e4:3f90)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 54)  PROXIED!
+[Network Analyzer (43e4:254c)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 55)  PROXIED!
+[Network Analyzer (43e4: c58)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 56)  PROXIED!
+[Network Analyzer (43e4: 6b0)]   (Sid: 53) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (43e4:2670)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (43e4:44d4)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:44d4)] Request Connection: Remote Server @ 204.79.197.203:80   (Service=)  (Sid= 57)  PROXIED!
+[Network Analyzer (43e4:4370)]   (Sid: 54) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (43e4:1c4c)]   (Sid: 55) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (43e4:2c40)]   (Sid: 56) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Web Request      (43e4:2670)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBQZif2SL2Dca2YsM5ZwqY8qkniRuQQUdrhN80RYwiB6jEYlzu51%2FeWrxHcCEzMADi2AkRtvQUCD3VUAAAAOLYA%3D"   
+[Network Analyzer (43e4:2670)]   (Sid: 57) Client -> Server @ : 247 bytes (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 57) Server -> Client : 466 bytes  (Service=HTTP)
+[Web Request      (43e4:2670)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBQZif2SL2Dca2YsM5ZwqY8qkniRuQQUdrhN80RYwiB6jEYlzu51%2FeWrxHcCEzMADi2AkRtvQUCD3VUAAAAOLYA%3D"   
+[Network Analyzer (43e4:2670)]   (Sid: 57) Client -> Server @ : 290 bytes (Service=HTTP)
+[Network Analyzer (43e4:2670)]   (Sid: 57) Server -> Client : 466 bytes  (Service=HTTP)
+[Net An. Error    (43e4: 6b0)]   (Sid: 53) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (43e4:4370)]   (Sid: 54) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (43e4:1c4c)]   (Sid: 55) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (43e4:2c40)]   (Sid: 56) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (43e4:44d4)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:2670)]   (Sid: 53) Connection Terminated (by Client)
+[Network Analyzer (43e4:2670)]   (Sid: 54) Connection Terminated (by Client)
+[Network Analyzer (43e4:2670)]   (Sid: 55) Connection Terminated (by Client)
+[Network Analyzer (43e4:2670)]   (Sid: 56) Connection Terminated (by Client)
+[Network Analyzer (43e4:44d4)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 58)  PROXIED!
+[Network Analyzer (43e4:43c0)]   (Sid: 58) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (43e4:43c0)]   (Sid: 58) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (43e4:44d4)] Address lookup for LAPTOP-AL785ABG = 172.20.80.1
+[Network Analyzer (43e4:2670)]   (Sid: 58) Connection Terminated (by Client)
+[Network Analyzer (43e4:44d4)] Request Connection: Remote Server @ 52.230.124.159:443   (Service=)  (Sid= 59)  PROXIED!
+[Network Analyzer (43e4:3490)]   (Sid: 59) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (43e4:3490)]   (Sid: 59) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (43e4:2670)]   (Sid: 59) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent TicketPurchase_06_SignOff 
