@@ -1,0 +1,129 @@
+[API Trapper      (3100:21fc)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer (3100: 4f8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3100: 4f8)] Load Network Traffic Analyzers:
+[Network Analyzer (3100: 4f8)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (3100: 4f8)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (3100: 4f8)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (3100: 4f8)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (3100: 4f8)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (3100: 4f8)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (3100: 4f8)]     Analyzer Module: local_server (value=)
+[Network Analyzer (3100: 4f8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3100: cd4)] Address lookup for LAPTOP-AL785ABG = 172.29.48.1
+[API Trapper      ( 5a4:2ddc)] Recording in 64-bit mode: C:\WINDOWS\system32\IESettingSync.exe
+[Network Analyzer (3100: 4f8)] Address lookup for LAPTOP-AL785ABG = 172.29.48.1
+[Network Analyzer (3100:19f0)] Address lookup for LAPTOP-AL785ABG = 172.29.48.1
+[Net An. Warning  (3100:19f0)] Request Connection: Remote Server @ 127.0.0.1:1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (3100: 4f8)] Request Connection: Remote Server @ 127.0.0.1:1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (3100:19f0)] Request Connection: Remote Server @ 127.0.0.1:1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (3100: 4f8)] Request Connection: Remote Server @ 127.0.0.1:1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (3100:19f0)] Request Connection: Remote Server @ 127.0.0.1:1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (3100:19f0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (3100: 4f8)] Request Connection: Remote Server @ 127.0.0.1:1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (3100: 4f8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (3100:1760)] Address lookup for LAPTOP-AL785ABG = 172.29.48.1
+[Network Analyzer (3100:19f0)] Address lookup for LAPTOP-AL785ABG = 172.29.48.1
+[Network Analyzer (3100: 4f8)] Address lookup for LAPTOP-AL785ABG = 172.29.48.1
+[Network Analyzer (3100:1760)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (3100:19f0)] Request Connection: Remote Server @ 13.76.98.223:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (3100: 4f8)] Request Connection: Remote Server @ 13.76.98.223:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (3100: 840)] Address lookup for LAPTOP-AL785ABG = 172.29.48.1
+[Network Analyzer (3100: 840)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (3100:46d0)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (3100: 87c)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (3100:3c24)]   (Sid:  1) SSL handshake with remote server Failed!
+[Net An. Error    (3100: 320)]   (Sid:  4) SSL handshake with remote server Failed!
+[Network Analyzer (3100:1760)] Address lookup for LAPTOP-AL785ABG = 172.29.48.1
+[Network Analyzer (3100:1760)] Request Connection: Remote Server @ 204.79.197.203:80   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (3100: cd4)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBQZif2SL2Dca2YsM5ZwqY8qkniRuQQUdrhN80RYwiB6jEYlzu51%2FeWrxHcCEzMADi2AkRtvQUCD3VUAAAAOLYA%3D"   
+[Network Analyzer (3100: cd4)]   (Sid:  5) Client -> Server @ : 247 bytes (Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid:  5) Server -> Client : 473 bytes  (Service=HTTP)
+[Web Request      (3100: cd4)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBQZif2SL2Dca2YsM5ZwqY8qkniRuQQUdrhN80RYwiB6jEYlzu51%2FeWrxHcCEzMADi2AkRtvQUCD3VUAAAAOLYA%3D"   
+[Network Analyzer (3100: cd4)]   (Sid:  5) Client -> Server @ : 290 bytes (Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid:  5) Server -> Client : 466 bytes  (Service=HTTP)
+[Net An. Error    (3100:46d0)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3100: cd4)]   (Sid:  2) Connection Terminated (by Client)
+[Net An. Error    (3100: 87c)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3100:1760)] Address lookup for LAPTOP-AL785ABG = 172.29.48.1
+[Network Analyzer (3100: cd4)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (3100:1760)] Request Connection: Remote Server @ 13.76.98.223:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (3100:2f78)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (3100:2f78)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:AES256-GCM-SHA384)
+[Web Request      (3100: cd4)] "GET /l1.dat?cw=637564127402077038&v=3&cv=9.11.19041.0&os=10.0.19042.0.0&pg=4A72F430-B40C-4D36-A068-CE33ADA5ADF9"   
+[Network Analyzer (3100: cd4)]   (Sid:  6) Client -> Server @ : 506 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid:  6) Server -> Client : 12069 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer (3100:19f0)] Address lookup for LAPTOP-AL785ABG = 172.29.48.1
+[Network Analyzer (3100:19f0)] Request Connection: Remote Server @ 111.84.91.62:80   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (3100: cd4)] "GET /pkiops/crl/Microsoft%20Azure%20TLS%20Issuing%20CA%2001.crl"   
+[Network Analyzer (3100: cd4)]   (Sid:  7) Client -> Server @ : 176 bytes (Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid:  7) Server -> Client : 1305 bytes  (Service=HTTP)
+[Network Analyzer (3100:1410)] Address lookup for LAPTOP-AL785ABG = 172.29.48.1
+[Network Analyzer (3100:19f0)] Address lookup for LAPTOP-AL785ABG = 172.29.48.1
+[Network Analyzer (3100:19f0)] Request Connection: Remote Server @ 111.84.35.14:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (3100:1410)] Request Connection: Remote Server @ 111.84.35.14:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (3100:2740)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (3100:3e64)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (3100:19f0)] Address lookup for LAPTOP-AL785ABG = 172.29.48.1
+[Network Analyzer (3100:19f0)] Request Connection: Remote Server @ 104.18.25.243:80   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      (3100: cd4)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBQZif2SL2Dca2YsM5ZwqY8qkniRuQQUdrhN80RYwiB6jEYlzu51%2FeWrxHcCE2sABplxS2KOeMlNPQAAAAAGmXE%3D"   
+[Network Analyzer (3100: cd4)]   (Sid: 10) Client -> Server @ : 236 bytes (Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid: 10) Server -> Client : 376 bytes  (Service=HTTP)
+[Web Request      (3100: cd4)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBQZif2SL2Dca2YsM5ZwqY8qkniRuQQUdrhN80RYwiB6jEYlzu51%2FeWrxHcCE2sABplxS2KOeMlNPQAAAAAGmXE%3D"   
+[Network Analyzer (3100: cd4)]   (Sid: 10) Client -> Server @ : 279 bytes (Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid: 10) Server -> Client : 380 bytes  (Service=HTTP)
+[Network Analyzer (3100: 4f8)] Address lookup for LAPTOP-AL785ABG = 172.29.48.1
+[Network Analyzer (3100: 4f8)] Request Connection: Remote Server @ 117.18.232.200:80   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      (3100: cd4)] "GET /pki/mscorp/crl/Microsoft%20RSA%20TLS%20CA%2001.crl"   
+[Network Analyzer (3100: cd4)]   (Sid: 11) Client -> Server @ : 220 bytes (Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid: 11) Server -> Client : 2800 bytes  (Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid: 11) Server -> Client : 12132 bytes  (Service=HTTP)
+[Web Request      (3100: cd4)] "GET /pki/mscorp/crl/Microsoft%20RSA%20TLS%20CA%2001.crl"   
+[Network Analyzer (3100: cd4)]   (Sid: 11) Client -> Server @ : 213 bytes (Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid: 11) Server -> Client : 1400 bytes  (Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid: 11) Server -> Client : 14000 bytes  (Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid: 11) Server -> Client : 11200 bytes  (Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid: 11) Server -> Client : 4716 bytes  (Service=HTTP)
+[Network Analyzer (3100: 4f8)] Address lookup for LAPTOP-AL785ABG = 172.29.48.1
+[Network Analyzer (3100: 4f8)] Request Connection: Remote Server @ 111.84.228.58:80   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      (3100: cd4)] "GET /pki/mscorp/crl/Microsoft%20RSA%20TLS%20CA%2001.crl"   
+[Network Analyzer (3100: cd4)]   (Sid: 12) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid: 12) Server -> Client : 5600 bytes  (Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid: 12) Server -> Client : 2800 bytes  (Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid: 12) Server -> Client : 2800 bytes  (Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid: 12) Server -> Client : 2800 bytes  (Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid: 12) Server -> Client : 2800 bytes  (Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid: 12) Server -> Client : 2800 bytes  (Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid: 12) Server -> Client : 1400 bytes  (Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid: 12) Server -> Client : 1400 bytes  (Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid: 12) Server -> Client : 2800 bytes  (Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid: 12) Server -> Client : 5600 bytes  (Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid: 12) Server -> Client : 522 bytes  (Service=HTTP)
+[Web Request      (3100: cd4)] "GET /pki/mscorp/crl/Microsoft%20RSA%20TLS%20CA%2001.crl"   
+[Network Analyzer (3100: cd4)]   (Sid: 12) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid: 12) Server -> Client : 8400 bytes  (Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid: 12) Server -> Client : 15400 bytes  (Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid: 12) Server -> Client : 7522 bytes  (Service=HTTP)
+[Net An. Error    (3100:2740)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (3100:3e64)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3100:1760)] Address lookup for LAPTOP-AL785ABG = 172.29.48.1
+[Network Analyzer (3100: cd4)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (3100: cd4)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (3100:1760)] Request Connection: Remote Server @ 111.84.35.14:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (3100:2688)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (3100:2688)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:AES256-GCM-SHA384)
+[Web Request      (3100: cd4)] "GET /fwlink/?linkid=2133855&bucket=72&customertype=1"   
+[Network Analyzer (3100: cd4)]   (Sid: 13) Client -> Server @ : 444 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3100: cd4)]   (Sid: 13) Server -> Client : 497 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3100:1410)] Address lookup for LAPTOP-AL785ABG = 172.29.48.1
+[Network Analyzer (3100:1760)] Address lookup for LAPTOP-AL785ABG = 172.29.48.1
+[Network Analyzer (3100:1410)] Request Connection: Remote Server @ 204.79.197.219:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (3100:1760)] Request Connection: Remote Server @ 204.79.197.219:443   (Service=)  (Sid= 15)  PROXIED!
+[Net An. Error    (3100:174c)]   (Sid: 14) SSL handshake with remote server Failed!
+[Net An. Error    (3100:45cc)]   (Sid: 15) SSL handshake with remote server Failed!
+[Network Analyzer (3100: cd4)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer (3100: cd4)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (3100: cd4)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (3100: cd4)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (3100: cd4)]   (Sid: 11) Connection Terminated (by Client)

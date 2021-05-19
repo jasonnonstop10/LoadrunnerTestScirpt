@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=15552000
+Content-Length: 1575
+Content-Type: text/html
+Content-Encoding: gzip
+Last-Modified: Fri, 12 Mar 2021 08:15:42 GMT
+Vary: Accept-Encoding
+X-SNR-Routing: 1
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 0C1786D592E841C4850940D5959C674F Ref B: BKK30EDGE0220 Ref C: 2021-05-12T10:50:00Z
+Date: Wed, 12 May 2021 10:49:59 GMT
+

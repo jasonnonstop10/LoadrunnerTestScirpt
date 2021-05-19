@@ -1,7 +1,7 @@
 HTTP/1.1 200 OK
-Date: Wed, 28 Apr 2021 14:43:15 GMT
+Date: Wed, 12 May 2021 11:46:41 GMT
 Server: Apache/2.2.21 (Win32)
-Expires: Tue, 27 Apr 2021 14:43:15 GMT
+Expires: Tue, 11 May 2021 11:46:41 GMT
 Set-Cookie: MTUserInfo=firstName&Tianwit&username&jason&address2&thai&hash&14&expDate&20%2F24&creditCard&5454545215&address1&nope%20street%20&lastName&Moungnoycharoen%0A; path=/
 Keep-Alive: timeout=5, max=90
 Connection: Keep-Alive

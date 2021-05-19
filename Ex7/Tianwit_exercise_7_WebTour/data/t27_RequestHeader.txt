@@ -1,0 +1,11 @@
+GET /cgi-bin/welcome.pl?page=menus HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://127.0.0.1:1080/cgi-bin/login.pl
+Accept-Language: en-US,en;q=0.7,th;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+UA-CPU: AMD64
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1620817523; MTUserInfo=firstName&Tony&address2&baihing%20China%208750&username&goon&hash&14&lastName&Woodsome&address1&jing%20chi%20long%20street&creditCard&&expDate&
+

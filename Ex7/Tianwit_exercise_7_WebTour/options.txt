@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Lenovo\Documents\GitHub\LoadrunnerTestScirpt\Ex7\Tianwit_exercise_7_WebTour
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ec:\users\lenovo\documents\github\loadrunnertestscirpt\ex7\tianwit_exercise_7_webtour\\logfile.log
+c:\users\lenovo\documents\github\loadrunnertestscirpt\ex7\tianwit_exercise_7_webtour\\combined_Tianwit_exercise_7_WebTour.c
+c:\users\lenovo\documents\github\loadrunnertestscirpt\ex7\tianwit_exercise_7_webtour\\pre_cci.c

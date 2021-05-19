@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>Tianwit_exercise_7_WebTour</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="BookFlight.c" Filter="2" />
+    <FileEntry Name="Itinerary.c" Filter="2" />
+    <FileEntry Name="RegisterUser.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="Tianwit_exercise_7_WebTour.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="Tianwit_exercise_7_WebTour.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="Arrive.dat" Filter="2" />
+    <FileEntry Name="Depart.dat" Filter="2" />
+    <FileEntry Name="Username.dat" Filter="2" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="2" />
+    <FileEntry Name="Bookmarks.xml" Filter="2" />
+    <FileEntry Name="Breakpoints.xml" Filter="2" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="2" />
+    <FileEntry Name="UserTasks.xml" Filter="2" />
+    <FileEntry Name="combined_Tianwit_exercise_7_WebTour.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="11281208444.idx" Filter="1" />
+    <FileEntry Name="17672646844.idx" Filter="1" />
+    <FileEntry Name="24885803644.idx" Filter="1" />
+    <FileEntry Name="24885803644_05t.678.idx" Filter="1" />
+    <FileEntry Name="24885803644_1RI.317.idx" Filter="1" />
+    <FileEntry Name="24885803644_1wM.587.idx" Filter="1" />
+    <FileEntry Name="24885803644_33I.669.idx" Filter="1" />
+    <FileEntry Name="24885803644_4qx.841.idx" Filter="1" />
+    <FileEntry Name="24885803644_9MH.959.idx" Filter="1" />
+    <FileEntry Name="24885803644_aXM.681.idx" Filter="1" />
+    <FileEntry Name="24885803644_bJk.677.idx" Filter="1" />
+    <FileEntry Name="24885803644_BTg.475.idx" Filter="1" />
+    <FileEntry Name="24885803644_BVt.519.idx" Filter="1" />
+    <FileEntry Name="24885803644_C8h.919.idx" Filter="1" />
+    <FileEntry Name="24885803644_CVU.643.idx" Filter="1" />
+    <FileEntry Name="24885803644_e75.283.idx" Filter="1" />
+    <FileEntry Name="24885803644_fPH.647.idx" Filter="1" />
+    <FileEntry Name="24885803644_gM2.261.idx" Filter="1" />
+    <FileEntry Name="24885803644_GvL.675.idx" Filter="1" />
+    <FileEntry Name="24885803644_gY1.643.idx" Filter="1" />
+    <FileEntry Name="24885803644_hq8.677.idx" Filter="1" />
+    <FileEntry Name="24885803644_IY4.679.idx" Filter="1" />
+    <FileEntry Name="24885803644_jHq.595.idx" Filter="1" />
+    <FileEntry Name="24885803644_K5r.363.idx" Filter="1" />
+    <FileEntry Name="24885803644_Kb5.920.idx" Filter="1" />
+    <FileEntry Name="24885803644_kiX.473.idx" Filter="1" />
+    <FileEntry Name="24885803644_kM4.676.idx" Filter="1" />
+    <FileEntry Name="24885803644_mB0.680.idx" Filter="1" />
+    <FileEntry Name="24885803644_oKn.669.idx" Filter="1" />
+    <FileEntry Name="24885803644_P7O.315.idx" Filter="1" />
+    <FileEntry Name="24885803644_PfQ.675.idx" Filter="1" />
+    <FileEntry Name="24885803644_QUd.557.idx" Filter="1" />
+    <FileEntry Name="24885803644_rPo.961.idx" Filter="1" />
+    <FileEntry Name="24885803644_rU3.674.idx" Filter="1" />
+    <FileEntry Name="24885803644_sDr.83.idx" Filter="1" />
+    <FileEntry Name="24885803644_SHU.483.idx" Filter="1" />
+    <FileEntry Name="24885803644_SsD.990.idx" Filter="1" />
+    <FileEntry Name="24885803644_VBh.991.idx" Filter="1" />
+    <FileEntry Name="24885803644_w8s.649.idx" Filter="1" />
+    <FileEntry Name="24885803644_XwA.987.idx" Filter="1" />
+    <FileEntry Name="24885803644_YJa.921.idx" Filter="1" />
+    <FileEntry Name="24885803644_zQ6.73.idx" Filter="1" />
+    <FileEntry Name="custom_body_variables.txt" Filter="1" />
+    <FileEntry Name="data.zip" Filter="1" />
+    <FileEntry Name="lrw_custom_body.h" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv57p.847.log" Filter="1" />
+    <FileEntry Name="mdrvcoT.387.log" Filter="1" />
+    <FileEntry Name="mdrvCZI.843.log" Filter="1" />
+    <FileEntry Name="mdrvHP1.481.log" Filter="1" />
+    <FileEntry Name="mdrviDQ.245.log" Filter="1" />
+    <FileEntry Name="mdrvLnY.609.log" Filter="1" />
+    <FileEntry Name="mdrvw39.7.log" Filter="1" />
+    <FileEntry Name="mdrvw6L.293.log" Filter="1" />
+    <FileEntry Name="mdrvXvR.269.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="Tianwit_exercise_7_WebTour.c.pickle" Filter="1" />
+    <FileEntry Name="Tianwit_exercise_7_WebTour.ci" Filter="1" />
+    <FileEntry Name="Tianwit_exercise_7_WebTour.prm.bak" Filter="1" />
+    <FileEntry Name="Tianwit_exercise_7_WebTour.sdf" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
+    <FileEntry Name="data\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

@@ -1,0 +1,7 @@
+Virtual User Script started at : 5/13/2021 10:57:59 AM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.50.0 for Windows 8; build 1096 (¾.¤. 13 2564 16:55:24)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\Lenovo\Documents\GitHub\LoadrunnerTestScirpt\Ex7\Tianwit_exercise_7_WebTour\\default.cfg"  	[MsgId: MMSG-27141]
+Abort was called from an action.

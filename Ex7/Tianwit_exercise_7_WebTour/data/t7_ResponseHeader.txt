@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=3600
+Content-Length: 201529
+Content-Type: application/xml
+Content-Encoding: gzip
+ETag: vF/TjShoO/30VWpJm9gYQVnSkwE=
+Vary: Accept-Encoding
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _EDGE_S=SID=11DBE6BF6EAD6E0C0FF1F68A6F126F78&mkt=en-us; domain=.microsoft.com; path=/; HttpOnly
+Set-Cookie: SRCHHPGUSR=SRCHLANGV2=en; domain=.microsoft.com; expires=Fri, 12-May-2023 10:49:59 GMT; path=/
+X-SNR-Routing: 1
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 14B1D2397B5A4102AAAF11D8AFE917D2 Ref B: BKK30EDGE0220 Ref C: 2021-05-12T10:49:59Z
+Date: Wed, 12 May 2021 10:49:59 GMT
+
